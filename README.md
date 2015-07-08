@@ -1,5 +1,5 @@
 # SupportTools
 
-to successfully clean your old logs, change the .bat file located in SupportTools\LogParserWithDB\CleanUP
+You will need to create a sql database named "logs" and update config/config.php
 
-the locations in the .bat file should reflect your sql database and the location of your folder storing the logs. SupportTools\LogParserWithDB\logFiles
+In the CleanUP folder, you will need to edit the .bat file to reflect the location of your sql database.

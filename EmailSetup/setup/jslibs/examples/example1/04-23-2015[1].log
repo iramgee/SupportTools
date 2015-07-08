@@ -1,0 +1,1039 @@
+07:59:22 CylanceSvc(1196)[6] Information: Initializing...
+07:59:30 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|PrivateMemorySize64(K)|CpuUser%|Threads|Handles|WorkingSet64(K)|PeakWorkingSet64(K)|VirtualMemorySize64(K)|PeakVirtualMemorySize64(K)|PagedMemorySize64(K)|PeakPagedMemorySize64(K)|PagedSystemMemorySize64(K)|NonpagedSystemMemorySize64(K)|CpuPriv%|CpuTotl%|ElapsedTime|WorkingSetPrivateMemory(Kb)|IoDataBytesPerSec|PageFaultsPerSec
+07:59:30 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|24728|100|13|340|22784|23700|567372|610076|24728|26836|295|30|0|100|13|8392|364527|15585
+07:59:30 CylanceSvc(1196)[6] Information: Database location: C:\ProgramData\Cylance\Desktop
+07:59:37 CylanceSvc(1196)[6] Information: Starting service
+07:59:37 CylanceSvc(1196)[6] Information: Loaded Controller module ver. 1.1.1260.33
+07:59:37 CylanceSvc(1196)[6] Information: Verifying assembly signatures
+07:59:38 CylanceSvc(1196)[6] Information: Loaded module type Analysis ver. 1.1.1260.33
+07:59:39 CylanceSvc(1196)[6] Information: Loaded module type CommandControlUi ver. 1.1.1260.33
+07:59:39 CylanceSvc(1196)[6] Information: Venue command polling interval set to occur every 44 seconds.
+07:59:39 CylanceSvc(1196)[6] Information: Loaded module type Venue ver. 1.1.1260.35
+07:59:39 CylanceSvc(1196)[6] Information: Loaded module type WindowsEventLogger ver. 1.1.1260.33
+07:59:43 CylanceSvc(1196)[6] Information: Local Infinity version: 130532070597673745, old version 130532070597673745
+07:59:50 CylanceSvc(1196)[17] Information: [Cylance.Host.MemDef.MemDef] StartMemDef called
+07:59:51 CylanceSvc(1196)[4] Information: [DeviceFingerPrint] ReadWmiClassProperties: class="Win32_OperatingSystem" - property="PortableOperatingSystem" skipped; ex: Not found 
+07:59:52 CylanceSvc(1196)[4] Information: [DeviceFingerPrint] fingerprintFields: [OS]MachineGuid:2b13d7da-3899-4a88-bc81-32952fea9997[Win32_BIOS]SerialNumber:VMware-56 4d 4f e1 66 eb f1 ca-52 c0 6c 65 fb 14 8f 74|IdentificationCode:|Manufacturer:Phoenix Technologies LTD[Win32_BaseBoard]SerialNumber:None|Version:None|Manufacturer:Intel Corporation|Product:440BX Desktop Reference Platform|Model:[Win32_Processor]UniqueId:|ProcessorId:0FABFBFF000306A9|ProcessorType:3|Revision:14857|Name:Intel(R) Core(TM) i7-3667U CPU @ 2.00GHz|Manufacturer:GenuineIntel[Win32_DiskDrive]SerialNumber:|Signature:3322981483|Model:VMware, VMware Virtual S SCSI Disk Device|TotalHeads:255[Win32_OperatingSystem]SerialNumber:00392-918-5000002-85823|PortableOperatingSystem:|OperatingSystemSKU:|OSArchitecture:|OSType:|InstallDate:
+07:59:52 CylanceSvc(1196)[4] Information: [DeviceFingerPrint] fingerprint :      a46d1460-e559-4a6b-9240-2cfd5aba0c03
+07:59:52 CylanceSvc(1196)[17] Information: [Cylance.Host.FileSystem.FileSystem] SetPolicy(), full_disc_scan=AlwaysRun: prev=Stopped, watch_for_new_files=True: prev=False
+07:59:52 CylanceSvc(1196)[4] Information: [VenueCommandManager] Venue network connection state changed; new state=Connected
+07:59:53 CylanceSvc(1196)[4] Information: [AgentPolicy] Online Policy 'Auto-Quarantine' is updated
+07:59:54 CylanceSvc(1196)[17] Information: [Cylance.Host.Analyzer.FileProcessor] Infinity network connection state changed; new state=Connected
+07:59:54 CylanceSvc(1196)[17] Warning: [Cylance.Host.MemDef.MemDef] Update of 1 exclusion(s) succeeded
+07:59:54 CylanceSvc(1196)[17] Information: [Cylance.Host.FileSystem.FileSystem] SetPolicy(), full_disc_scan=AlwaysRun: prev=AlwaysRun, watch_for_new_files=True: prev=True
+08:00:22 CylanceUI(3376)[1] Information: Initializing...
+08:00:30 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|PrivateMemorySize64(K)|CpuUser%|Threads|Handles|WorkingSet64(K)|PeakWorkingSet64(K)|VirtualMemorySize64(K)|PeakVirtualMemorySize64(K)|PagedMemorySize64(K)|PeakPagedMemorySize64(K)|PagedSystemMemorySize64(K)|NonpagedSystemMemorySize64(K)|CpuPriv%|CpuTotl%|ElapsedTime|WorkingSetPrivateMemory(Kb)|IoDataBytesPerSec|PageFaultsPerSec|BytesSent(Kb)|BytesReceived(Kb)|ConnectionsEstablished
+08:00:30 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|115836|22|35|910|56008|376244|722060|1159524|115836|316268|502|86|8|30|73|27100|2492084|4462|6|17|6
+08:00:32 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2489\g2mtranscoder.exe' is allowed by SafeList.
+08:00:32 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2491\g2mtranscoder.exe' is allowed by SafeList.
+08:00:32 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2492\g2mtranscoder.exe' is allowed by SafeList.
+08:00:32 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2539\g2mtranscoder.exe' is allowed by SafeList.
+08:00:32 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2489\G2MTranscoder.exe' is allowed by SafeList.
+08:00:32 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2491\G2MTranscoder.exe' is allowed by SafeList.
+08:00:32 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2492\G2MTranscoder.exe' is allowed by SafeList.
+08:00:32 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2539\G2MTranscoder.exe' is allowed by SafeList.
+08:00:32 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\users\lscaife\appdata\local\temp\citrixupdates\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+08:00:32 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\program files (x86)\citrix\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+08:00:32 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\1415\ImmersiveWindowsFinderDllWin8.dll' is allowed by SafeList.
+08:00:32 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\BigFix Enterprise\BES Client\__BESData\BES Support\qchain.exe' is allowed by SafeList.
+08:01:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|115800|1|37|898|60336|376244|718892|1159524|115800|316268|494|85|0|1|134|30040|1072891|140|9|22|6
+08:02:30 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|116692|0|40|960|60976|376244|722732|1159524|116692|316268|494|85|0|0|193|31184|9303|10|10|22|6
+08:03:31 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|116548|0|35|912|15732|376244|716844|1159524|116548|316268|493|84|0|0|254|9784|325|33|11|24|6
+08:04:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|116588|0|36|949|16628|376244|717868|1159524|116588|316268|494|84|0|0|313|10192|169|95|13|27|6
+08:05:30 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|116640|0|34|945|5908|376244|715780|1159524|116640|316268|493|84|0|0|373|5076|3|35|14|27|6
+08:06:30 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|117588|0|32|995|21272|376244|713732|1159524|117588|316268|494|83|0|0|433|12368|331|59|15|30|6
+08:07:30 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|118640|0|33|1016|22256|376244|714756|1159524|118640|316268|497|83|0|0|493|13084|221|5|16|32|6
+08:08:30 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|119644|0|33|1048|22656|376244|714756|1159524|119644|316268|496|83|0|0|553|13492|145|3|17|32|6
+08:09:30 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|120744|0|34|1018|23160|376244|715780|1159524|120744|316268|497|83|0|0|613|13844|303|3|19|35|6
+08:10:31 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|116536|0|34|901|17304|376244|715780|1159524|116536|316268|498|84|0|0|674|10440|267|74|19|37|6
+08:11:31 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|117016|1|37|919|44992|376244|718936|1159524|117016|316268|500|86|1|1|734|35044|302936|351|21|40|7
+08:12:31 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|116728|0|34|929|22632|376244|715864|1159524|116728|316268|497|85|0|0|794|14436|10462|23|23|43|7
+08:13:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|116912|0|36|977|18836|376244|717912|1159524|116912|316268|497|85|0|0|854|11512|223|53|23|45|7
+08:14:31 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|117748|0|31|965|22092|376244|713560|1159524|117748|316268|497|83|0|0|914|12504|139|10|25|45|7
+08:15:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|119336|0|32|990|25444|376244|715096|1159524|119336|316268|496|84|0|0|974|14092|83|16|26|48|7
+08:16:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|120400|0|33|1012|26004|376244|716120|1159524|120400|316268|497|85|0|0|1034|14684|67|4|27|50|7
+08:17:31 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|120860|0|32|977|25856|376244|714584|1159524|120860|316268|497|84|0|0|1094|14444|3|2|28|52|7
+08:18:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|121964|0|35|983|26228|376244|716888|1159524|121964|316268|497|84|0|0|1154|14792|85|3|29|53|7
+08:19:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|122896|0|32|1006|26472|376244|714584|1159524|122896|316268|497|83|0|0|1214|15088|163|2|30|55|7
+08:20:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|123912|0|32|988|26784|376244|714584|1159524|123912|316268|497|83|0|0|1274|15344|3|2|32|57|7
+08:21:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|124936|0|32|983|28508|376244|714584|1159524|124936|316268|497|83|0|0|1334|15956|3|8|33|58|7
+08:22:31 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|125960|0|32|963|28804|376244|714584|1159524|125960|316268|497|83|0|0|1394|16244|3|2|33|60|7
+08:23:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|127000|0|32|977|30228|376244|714584|1159524|127000|316268|497|83|0|0|1454|16752|82|7|35|62|7
+08:24:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|128016|0|32|1005|30568|376244|714584|1159524|128016|316268|497|83|0|0|1514|17152|167|4|36|63|7
+08:25:31 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|128944|0|33|866|34164|376244|714840|1159524|128944|316268|496|83|0|0|1574|20712|4|19|37|65|7
+08:26:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|128956|0|34|889|35176|376244|715864|1159524|128956|316268|496|84|0|0|1634|21720|81|6|38|67|7
+08:27:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|128880|0|31|882|35984|376244|713560|1159524|128880|316268|496|83|0|0|1694|22444|3|4|39|68|7
+08:28:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|128920|0|32|869|36764|376244|714584|1159524|128920|316268|496|83|0|0|1754|23228|3|4|41|70|7
+08:29:31 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|128956|0|33|860|37532|376244|715608|1159524|128956|316268|496|83|0|0|1814|24032|3|5|42|72|7
+08:30:31 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|129000|0|34|895|38356|376244|716632|1159524|129000|316268|497|84|0|0|1874|24788|88|5|43|73|7
+08:31:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|128912|0|32|891|39164|376244|714584|1159524|128912|316268|497|83|0|0|1934|25500|3|5|44|75|7
+08:32:31 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|128956|0|33|882|39948|376244|715608|1159524|128956|316268|497|83|0|0|1994|26276|3|4|45|77|7
+08:33:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|128896|0|32|884|40656|376244|714584|1159524|128896|316268|497|83|0|0|2054|27032|3|4|46|78|7
+08:34:31 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|128924|0|32|968|42044|376244|714584|1159524|128924|316268|497|83|0|0|2114|28172|396|8|48|80|7
+08:35:31 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|129080|0|36|979|42996|376244|718680|1159524|129080|316268|497|84|0|0|2174|29068|83|5|48|82|7
+08:36:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|128920|0|33|907|43684|376244|714840|1159524|128920|316268|497|84|0|0|2234|29712|4|4|49|82|7
+08:37:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|128860|0|31|930|44448|376244|712792|1159524|128860|316268|495|83|0|0|2294|30464|83|5|51|85|7
+08:38:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|128884|0|32|919|45220|376244|713816|1159524|128884|316268|495|83|0|0|2354|30956|3|2|51|87|7
+08:39:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|129636|0|32|922|45664|376244|713816|1159524|129636|316268|495|83|0|0|2414|31224|64|2|53|89|7
+08:40:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|130632|0|31|924|45924|376244|712792|1159524|130632|316268|495|83|0|0|2474|31480|3|2|54|90|7
+08:41:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|131692|0|32|918|46256|376244|713816|1159524|131692|316268|495|83|0|0|2534|31788|3|2|55|92|7
+08:42:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|132696|0|32|956|46512|376244|713816|1159524|132696|316268|496|83|0|0|2594|32044|86|3|56|94|7
+08:43:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|133724|0|32|964|46784|376244|713816|1159524|133724|316268|496|83|0|0|2654|32320|4|2|57|95|7
+08:44:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|134728|0|32|977|47100|376244|713816|1159524|134728|316268|496|83|0|0|2714|32600|82|3|58|97|7
+08:45:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|135788|0|33|923|47444|376244|714840|1159524|135788|316268|496|83|0|0|2774|32936|87|3|60|99|7
+08:46:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|136768|0|32|928|47700|376244|713816|1159524|136768|316268|496|83|0|0|2834|33188|81|2|61|100|7
+08:47:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|137768|0|31|945|47956|376244|712792|1159524|137768|316268|496|83|0|0|2894|33448|166|2|61|102|7
+08:48:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|138800|0|32|930|48236|376244|713816|1159524|138800|316268|495|83|0|0|2954|33724|83|2|63|104|7
+08:49:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|139816|0|32|901|48504|376244|713816|1159524|139816|316268|495|83|0|0|3014|33996|3|2|64|105|7
+08:50:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|140800|0|31|897|48752|376244|713560|1159524|140800|316268|495|83|0|0|3074|34240|3|2|66|107|7
+08:51:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|141820|0|31|896|49020|376244|713560|1159524|141820|316268|495|83|0|0|3134|34512|3|2|66|109|7
+08:52:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|142836|0|31|900|49292|376244|713560|1159524|142836|316268|495|83|0|0|3194|34780|3|2|67|110|7
+08:53:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|143852|0|31|903|49580|376244|713560|1159524|143852|316268|495|83|0|0|3254|35072|3|2|69|112|7
+08:54:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|144856|0|30|944|49972|376244|712536|1159524|144856|316268|496|83|0|0|3314|35464|146|3|69|114|7
+08:55:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|145972|0|33|939|50296|376244|715608|1159524|145972|316268|496|83|0|0|3374|35788|64|2|71|114|7
+08:56:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|146992|0|33|939|50572|376244|715608|1159524|146992|316268|495|83|0|0|3434|36056|83|2|72|117|7
+08:57:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|147928|0|31|924|50788|376244|713560|1159524|147928|316268|495|83|0|0|3494|36276|3|2|73|119|7
+08:58:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|148944|0|31|959|51056|376244|713560|1159524|148944|316268|496|83|0|0|3554|36544|86|2|74|119|7
+08:59:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|149936|0|30|951|51068|376244|712536|1159524|149936|316268|496|83|0|0|3614|36836|245|3|76|122|7
+09:00:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|151740|0|35|949|54744|376244|717400|1159524|151740|316268|496|85|0|0|3674|38536|149|17|78|124|7
+09:00:36 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2489\g2mtranscoder.exe' is allowed by SafeList.
+09:00:36 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2491\g2mtranscoder.exe' is allowed by SafeList.
+09:00:36 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2492\g2mtranscoder.exe' is allowed by SafeList.
+09:00:36 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2539\g2mtranscoder.exe' is allowed by SafeList.
+09:00:36 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2489\G2MTranscoder.exe' is allowed by SafeList.
+09:00:36 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2491\G2MTranscoder.exe' is allowed by SafeList.
+09:00:36 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2492\G2MTranscoder.exe' is allowed by SafeList.
+09:00:36 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2539\G2MTranscoder.exe' is allowed by SafeList.
+09:00:36 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\users\lscaife\appdata\local\temp\citrixupdates\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+09:00:36 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\program files (x86)\citrix\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+09:00:36 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\1415\ImmersiveWindowsFinderDllWin8.dll' is allowed by SafeList.
+09:00:36 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\BigFix Enterprise\BES Client\__BESData\BES Support\qchain.exe' is allowed by SafeList.
+09:01:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|152248|2|34|987|58352|376244|716632|1159524|152248|316268|497|85|1|3|3734|40212|1075379|287|81|130|8
+09:02:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|153144|0|31|987|58556|376244|713560|1159524|153144|316268|496|83|0|0|3794|40404|163|2|82|131|8
+09:03:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|154192|0|32|1009|58960|376244|714584|1159524|154192|316268|496|84|0|0|3854|40800|86|3|83|132|8
+09:04:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|155228|0|32|962|59508|376244|714584|1159524|155228|316268|496|84|0|0|3914|41344|166|4|84|135|8
+09:05:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|156296|0|33|939|59808|376244|715608|1159524|156296|316268|496|84|0|0|3974|41668|83|3|85|135|8
+09:06:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|157188|0|30|936|60012|376244|712536|1159524|157188|316268|496|83|0|0|4034|41848|3|2|86|137|8
+09:07:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|158272|0|32|973|60316|376244|714584|1159524|158272|316268|496|84|0|0|4094|42156|84|3|88|140|8
+09:08:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|159212|0|30|961|60540|376244|712536|1159524|159212|316268|496|83|0|0|4154|42376|3|2|89|140|8
+09:09:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|160392|0|34|1037|60928|376244|715864|1159524|160392|316268|496|84|0|0|4214|42768|247|3|89|142|8
+09:10:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|161288|0|31|1021|61140|376244|713560|1159524|161288|316268|496|83|0|0|4274|42972|83|2|91|145|8
+09:11:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|162276|0|30|991|61388|376244|712536|1159524|162276|316268|496|83|0|0|4334|43224|83|3|92|145|8
+09:12:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|163320|0|31|998|61684|376244|713560|1159524|163320|316268|496|83|0|0|4394|43512|3|2|94|148|8
+09:13:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|164320|0|31|927|61928|376244|713560|1159524|164320|316268|495|83|0|0|4454|43760|3|2|94|150|8
+09:14:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|165336|0|31|930|62192|376244|713560|1159524|165336|316268|495|83|0|0|4514|44020|3|2|95|150|8
+09:15:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|166368|0|31|973|62468|376244|712792|1159524|166368|316268|496|83|0|0|4574|44304|86|2|97|153|8
+09:16:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|167408|0|32|987|62756|376244|713816|1159524|167408|316268|496|84|0|0|4634|44588|173|3|97|155|8
+09:17:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|168424|0|32|940|63044|376244|713816|1159524|168424|316268|496|84|0|0|4694|44880|3|2|99|155|8
+09:18:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|169464|0|32|946|63340|376244|713816|1159524|169464|316268|496|84|0|0|4754|45164|145|3|100|158|8
+09:19:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|170448|0|32|947|63596|376244|713816|1159524|170448|316268|496|84|0|0|4814|45424|4|2|101|160|8
+09:20:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|171568|0|34|968|63936|376244|715864|1159524|171568|316268|496|84|0|0|4874|45760|62|3|102|160|8
+09:21:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|172560|0|33|951|64196|376244|714840|1159524|172560|316268|496|84|0|0|4934|46020|83|2|104|163|8
+09:22:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|173604|0|34|976|64492|376244|715864|1159524|173604|316268|496|84|0|0|4994|46308|86|2|104|164|8
+09:23:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|174624|0|34|990|64780|376244|715864|1159524|174624|316268|496|84|0|0|5054|46584|162|3|106|167|8
+09:24:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|175524|0|31|1007|65012|376244|712792|1159524|175524|316268|496|83|0|0|5114|46788|87|2|107|167|8
+09:25:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|176604|0|33|996|65316|376244|714840|1159524|176604|316268|496|84|0|0|5174|47096|88|2|107|169|8
+09:26:31 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|177584|0|32|974|65576|376244|713816|1159524|177584|316268|496|84|0|0|5234|47348|82|2|109|172|8
+09:27:31 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|178604|0|32|985|65844|376244|713816|1159524|178604|316268|496|84|0|0|5294|47616|83|3|110|172|8
+09:28:32 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|179620|0|32|978|66116|376244|713816|1159524|179620|316268|496|84|0|0|5354|47888|3|2|111|174|8
+09:29:32 CylanceSvc(1196)[27] Information: [ProcessStatistics] Stats|180668|0|33|957|66404|376244|714840|1159524|180668|316268|495|84|0|0|5414|48176|3|2|112|177|8
+09:30:32 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|181692|0|33|966|66684|376244|714840|1159524|181692|316268|496|84|0|0|5474|48452|3|2|113|177|8
+09:31:32 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|182656|0|31|990|66948|376244|713560|1159524|182656|316268|497|83|0|0|5534|48688|229|3|114|179|8
+09:32:32 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|116824|0|34|931|43544|376244|716632|1159524|116824|316268|498|84|0|0|5595|25016|89644|20|116|182|8
+09:33:32 CylanceSvc(1196)[4] Information: [ProcessStatistics] Stats|116836|0|35|928|43508|376244|717656|1159524|116836|316268|498|84|0|0|5655|25056|11499|1|117|182|8
+09:34:32 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|116828|0|31|891|43568|376244|713560|1159524|116828|316268|496|83|0|0|5715|25196|3|2|118|185|8
+09:35:32 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|117876|0|32|914|43856|376244|714584|1159524|117876|316268|494|83|0|0|5775|25476|162|2|119|187|8
+09:36:32 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|118840|0|31|916|44084|376244|713560|1159524|118840|316268|495|83|0|0|5835|25708|3|2|120|187|8
+09:37:32 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|119888|0|32|910|44368|376244|714584|1159524|119888|316268|495|83|0|0|5895|25992|3|2|122|190|8
+09:38:32 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|120864|0|31|942|44616|376244|713560|1159524|120864|316268|496|83|0|0|5955|26240|97|2|122|192|8
+09:39:32 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|121876|0|31|961|44876|376244|713560|1159524|121876|316268|496|83|0|0|6015|26496|87|2|123|192|8
+09:40:32 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|122864|0|30|965|45128|376244|712536|1159524|122864|316268|496|83|0|0|6075|26772|3|2|125|195|8
+09:41:32 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|123956|0|32|910|45456|376244|714584|1159524|123956|316268|496|83|0|0|6135|27084|89|2|125|196|8
+09:42:32 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|124976|0|32|925|45744|376244|714584|1159524|124976|316268|496|83|0|0|6195|27360|83|2|127|197|8
+09:43:32 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|125976|0|31|935|46008|376244|713560|1159524|125976|316268|497|83|0|0|6255|27616|3|2|128|200|8
+09:44:32 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|127016|0|32|954|46292|376244|714584|1159524|127016|316268|496|83|0|0|6315|27896|162|2|129|201|8
+09:45:32 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|128032|0|32|949|46548|376244|714584|1159524|128032|316268|496|83|0|0|6375|28156|3|2|130|204|8
+09:46:32 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|129056|0|32|944|46828|376244|714584|1159524|129056|316268|497|83|0|0|6435|28436|87|2|131|204|8
+09:47:32 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|130072|0|32|932|47096|376244|714584|1159524|130072|316268|496|83|0|0|6495|28704|83|2|132|206|8
+09:48:32 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|131088|0|32|926|47376|376244|714584|1159524|131088|316268|496|83|0|0|6555|28972|3|2|134|209|8
+09:49:32 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|132068|0|31|925|47616|376244|713560|1159524|132068|316268|496|83|0|0|6615|29212|3|2|135|209|8
+09:50:32 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|133112|0|32|919|47900|376244|714584|1159524|133112|316268|496|83|0|0|6675|29496|3|2|135|211|8
+09:51:32 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|134252|0|35|968|48248|376244|716888|1159524|134252|316268|497|84|0|0|6735|29844|86|3|137|214|8
+09:52:32 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|135156|0|32|928|48452|376244|714584|1159524|135156|316268|497|83|0|0|6795|30048|3|2|138|214|8
+09:53:32 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|136152|0|31|928|48708|376244|713560|1159524|136152|316268|496|83|0|0|6855|30300|83|2|139|216|8
+09:54:32 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|137192|0|32|928|48984|376244|714584|1159524|137192|316268|496|83|0|0|6915|30576|3|2|140|219|8
+09:54:50 CylanceSvc(1196)[5] Information: Running the Updater (115 minute update interval, Re-run flag: 0)...
+09:54:51 CyUpdate(428)[1] Information: CyUpdate starting, PID = 428...
+09:55:32 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|138876|0|32|977|51036|376244|715444|1159524|138876|316268|497|84|0|0|6975|31872|697|12|141|219|8
+09:56:32 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|139484|0|31|928|50984|376244|713908|1159524|139484|316268|497|83|0|0|7035|31816|462|3|143|222|8
+09:57:32 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|140552|0|33|932|51284|376244|715188|1159524|140552|316268|497|83|0|0|7095|32116|3|2|144|224|8
+09:58:32 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|141556|0|33|923|51540|376244|715188|1159524|141556|316268|497|83|0|0|7155|32372|3|2|145|224|8
+09:59:32 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|142572|0|33|921|51808|376244|715188|1159524|142572|316268|497|83|0|0|7215|32640|3|2|146|227|8
+10:00:32 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|144356|0|36|991|53300|376244|718772|1159524|144356|316268|498|85|0|0|7275|33684|225|8|147|229|8
+10:00:42 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2489\g2mtranscoder.exe' is allowed by SafeList.
+10:00:42 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2491\g2mtranscoder.exe' is allowed by SafeList.
+10:00:42 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2492\g2mtranscoder.exe' is allowed by SafeList.
+10:00:42 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2539\g2mtranscoder.exe' is allowed by SafeList.
+10:00:42 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2489\G2MTranscoder.exe' is allowed by SafeList.
+10:00:42 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2491\G2MTranscoder.exe' is allowed by SafeList.
+10:00:42 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2492\G2MTranscoder.exe' is allowed by SafeList.
+10:00:42 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2539\G2MTranscoder.exe' is allowed by SafeList.
+10:00:42 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\users\lscaife\appdata\local\temp\citrixupdates\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+10:00:42 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\program files (x86)\citrix\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+10:00:42 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\1415\ImmersiveWindowsFinderDllWin8.dll' is allowed by SafeList.
+10:00:42 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\BigFix Enterprise\BES Client\__BESData\BES Support\qchain.exe' is allowed by SafeList.
+10:01:32 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|144808|4|35|937|53072|376244|717236|1159524|144808|316268|498|85|2|6|7335|33452|1083700|270|149|232|9
+10:02:32 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|145852|0|35|980|53348|376244|718004|1159524|145852|316268|498|84|0|0|7395|33732|243|3|151|235|9
+10:03:32 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|146788|0|33|982|53584|376244|715956|1159524|146788|316268|498|84|0|0|7455|33964|88|2|151|237|9
+10:04:32 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|147780|0|32|938|53832|376244|714932|1159524|147780|316268|498|84|0|0|7515|34212|164|3|152|237|9
+10:05:32 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|148768|0|31|942|54080|376244|713908|1159524|148768|316268|498|84|0|0|7575|34460|3|2|154|240|9
+10:06:32 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|149808|0|32|963|54364|376244|714932|1159524|149808|316268|498|84|0|0|7635|34748|87|2|154|242|9
+10:07:33 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|150824|0|32|970|54636|376244|714932|1159524|150824|316268|497|84|0|0|7695|35016|83|2|156|244|9
+10:08:33 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|151820|0|31|964|54884|376244|713908|1159524|151820|316268|497|83|0|0|7756|35264|3|2|157|245|9
+10:09:33 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|152852|0|32|953|55164|376244|714932|1159524|152852|316268|497|84|0|0|7816|35540|3|2|158|247|9
+10:10:33 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|153868|0|32|929|55428|376244|714932|1159524|153868|316268|497|84|0|0|7876|35804|3|2|159|249|9
+10:23:13 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|155056|0|36|979|56320|376244|718260|1159524|155056|316268|498|85|0|0|8636|36216|268|5|159|249|9
+10:23:34 CylanceSvc(1196)[5] Information: Command Poll Timer Busy. Will wait for next timer interval to poll for status.
+10:24:13 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|155980|0|34|998|56540|376244|716212|1159524|155980|316268|498|83|0|0|8696|36432|416|2|159|249|9
+10:24:18 CylanceSvc(1196)[32] Information: Command Poll Timer Busy. Will wait for next timer interval to poll for status.
+10:25:02 CylanceSvc(1196)[5] Information: Command Poll Timer Busy. Will wait for next timer interval to poll for status.
+10:25:13 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|156928|0|32|987|56824|376244|714932|1159524|156928|316268|497|83|0|0|8756|36776|87|3|159|249|9
+10:25:46 CylanceSvc(1196)[5] Information: Command Poll Timer Busy. Will wait for next timer interval to poll for status.
+10:26:13 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|157944|0|32|979|57136|376244|714932|1159524|157944|316268|497|83|0|0|8816|37028|5|2|159|249|9
+10:26:30 CylanceSvc(1196)[26] Information: Command Poll Timer Busy. Will wait for next timer interval to poll for status.
+10:26:55 CylanceSvc(1196)[30] Information: [Venue commands] received command: update SafeList
+10:27:13 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|159432|0|33|996|57916|376244|716212|1159524|159432|316268|497|85|0|0|8876|37684|949|5|161|258|10
+10:27:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2489\g2mtranscoder.exe' is allowed by SafeList.
+10:27:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2491\g2mtranscoder.exe' is allowed by SafeList.
+10:27:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2492\g2mtranscoder.exe' is allowed by SafeList.
+10:27:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2539\g2mtranscoder.exe' is allowed by SafeList.
+10:27:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2489\G2MTranscoder.exe' is allowed by SafeList.
+10:27:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2491\G2MTranscoder.exe' is allowed by SafeList.
+10:27:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2492\G2MTranscoder.exe' is allowed by SafeList.
+10:27:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2539\G2MTranscoder.exe' is allowed by SafeList.
+10:27:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\users\lscaife\appdata\local\temp\citrixupdates\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+10:27:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\program files (x86)\citrix\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+10:27:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\1415\ImmersiveWindowsFinderDllWin8.dll' is allowed by SafeList.
+10:27:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\BigFix Enterprise\BES Client\__BESData\BES Support\qchain.exe' is allowed by SafeList.
+10:28:13 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|160476|1|34|1013|58216|376244|717236|1159524|160476|316268|499|86|0|2|8936|38168|1083690|272|164|264|11
+10:29:13 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|161384|0|31|1002|58620|376244|714164|1159524|161384|316268|496|84|0|0|8996|38376|3|2|164|266|11
+10:30:13 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|162452|0|33|1050|59052|376244|716212|1159524|162452|316268|497|85|0|0|9056|38832|146|3|166|268|11
+10:31:13 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|163532|0|35|1067|59396|376244|717492|1159524|163532|316268|496|85|0|0|9116|39204|85|3|167|269|11
+10:32:13 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|164188|0|32|977|59492|376244|714932|1159524|164188|316268|496|83|0|0|9176|39284|164|2|168|271|11
+10:33:13 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|165296|0|34|1029|59792|376244|716212|1159524|165296|316268|497|84|0|0|9236|39604|166|2|169|273|11
+10:34:13 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|166228|0|32|1014|60008|376244|714932|1159524|166228|316268|497|84|0|0|9296|39820|3|2|171|274|11
+10:35:13 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|167300|0|33|1001|60316|376244|715956|1159524|167300|316268|496|83|0|0|9356|40128|4|2|171|276|11
+10:36:13 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|168224|0|31|1030|60520|376244|713908|1159524|168224|316268|496|83|0|0|9416|40336|82|2|173|278|11
+10:37:13 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|169268|0|32|1029|60812|376244|714932|1159524|169268|316268|496|83|0|0|9476|40624|3|2|174|279|11
+10:38:13 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|170368|0|33|1069|61128|376244|715956|1159524|170368|316268|497|84|0|0|9536|40944|86|3|174|281|11
+10:39:13 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|171384|0|33|1089|61404|376244|715956|1159524|171384|316268|497|84|0|0|9596|41220|88|2|176|283|11
+10:40:13 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|172332|0|32|1076|61640|376244|714932|1159524|172332|316268|497|83|0|0|9656|41452|3|2|177|284|11
+10:41:13 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|173400|0|33|1072|61936|376244|715956|1159524|173400|316268|497|84|0|0|9716|41748|3|2|179|286|11
+10:42:13 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|174432|0|33|1112|62264|376244|715956|1159524|174432|316268|498|84|0|0|9776|42080|88|3|179|288|11
+10:43:13 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|175384|0|32|988|62504|376244|714932|1159524|175384|316268|498|84|0|0|9836|42320|61|2|180|288|11
+10:44:13 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|176492|0|34|1023|62828|376244|716980|1159524|176492|316268|497|84|0|0|9896|42640|163|3|182|291|11
+10:45:13 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|177420|0|32|1006|63044|376244|714932|1159524|177420|316268|497|83|0|0|9956|42856|3|2|183|293|11
+10:46:13 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|178508|0|33|1032|63352|376244|715956|1159524|178508|316268|498|84|0|0|10016|43168|86|2|184|293|11
+10:47:13 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|179552|0|34|1055|63648|376244|716980|1159524|179552|316268|497|84|0|0|10076|43460|83|2|185|296|11
+10:48:13 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|180492|0|33|1081|63860|376244|715956|1159524|180492|316268|497|84|0|0|10136|43680|146|3|186|298|11
+10:49:13 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|181500|0|32|1088|64132|376244|714932|1159524|181500|316268|496|83|0|0|10196|43940|83|2|187|298|11
+10:50:13 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|182456|0|31|1113|64364|376244|713908|1159524|182456|316268|497|83|0|0|10256|44176|88|3|189|301|11
+10:51:13 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|183468|0|31|1098|64632|376244|713908|1159524|183468|316268|497|83|0|0|10316|44444|3|2|189|303|11
+10:52:13 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|184488|0|31|1118|64904|376244|713908|1159524|184488|316268|496|83|0|0|10376|44716|83|2|191|305|11
+10:53:13 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|185528|0|32|1031|65188|376244|714164|1159524|185528|316268|496|83|0|0|10436|45004|3|2|192|306|11
+10:54:13 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|186632|0|34|976|65508|376244|716212|1159524|186632|316268|496|84|0|0|10496|45320|61|3|192|308|11
+10:55:13 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|187552|0|32|980|65720|376244|714164|1159524|187552|316268|496|83|0|0|10556|45536|3|2|194|310|11
+10:56:13 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|188580|0|32|1012|66000|376244|714164|1159524|188580|316268|497|84|0|0|10616|45816|86|2|195|311|11
+10:57:13 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|189592|0|32|1012|66272|376244|714164|1159524|189592|316268|496|83|0|0|10676|46088|83|2|196|313|11
+10:58:13 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|190608|0|32|1003|66544|376244|714164|1159524|190608|316268|496|83|0|0|10736|46352|3|2|197|315|11
+10:59:13 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|191720|0|34|1028|66860|376244|716212|1159524|191720|316268|497|84|0|0|10796|46696|86|3|198|316|11
+11:00:13 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|193692|0|32|1024|67156|376244|852212|1159524|193692|316268|497|88|0|0|10856|46936|3|3|199|318|11
+11:01:13 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|191228|0|31|1060|66792|376244|847668|1159524|191228|316268|497|88|0|0|10916|46572|166|3|201|320|11
+11:02:13 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|192304|0|33|1074|67100|376244|849716|1159524|192304|316268|496|88|0|0|10976|46880|83|3|202|321|11
+11:03:13 CylanceSvc(1196)[29] Information: [ProcessStatistics] Stats|193272|0|32|1072|67340|376244|848692|1159524|193272|316268|495|87|0|0|11036|47128|3|2|203|323|11
+11:04:13 CylanceSvc(1196)[29] Information: [ProcessStatistics] Stats|194252|0|30|956|67592|376244|847412|1159524|194252|316268|495|87|0|0|11096|47372|3|2|204|325|11
+11:05:13 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|195292|0|31|965|67876|376244|848436|1159524|195292|316268|496|87|0|0|11156|47656|3|2|205|326|11
+11:06:13 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|196304|0|31|961|68144|376244|848436|1159524|196304|316268|496|87|0|0|11216|47924|3|2|207|328|11
+11:07:13 CylanceSvc(1196)[29] Information: [ProcessStatistics] Stats|197296|0|30|957|68400|376244|847412|1159524|197296|316268|496|87|0|0|11276|48180|3|2|207|330|11
+11:08:13 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|198340|0|31|963|68688|376244|848436|1159524|198340|316268|496|87|0|0|11336|48464|3|2|208|330|11
+11:09:13 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|199356|0|31|961|68952|376244|848436|1159524|199356|316268|496|87|0|0|11396|48728|3|2|210|333|11
+11:10:13 CylanceSvc(1196)[29] Information: [ProcessStatistics] Stats|200388|0|31|992|69244|376244|848436|1159524|200388|316268|496|87|0|0|11456|49016|84|2|211|335|11
+11:11:13 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|130580|0|30|896|50088|376244|847412|1159524|130580|316268|497|87|0|0|11516|29780|88|5|212|335|11
+11:12:13 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|130640|0|32|905|50128|376244|849460|1159524|130640|316268|497|88|0|0|11576|29820|165|2|213|338|11
+11:13:13 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|130724|0|34|931|50496|376244|851508|1159524|130724|316268|497|88|0|0|11636|30612|108|4|214|340|11
+11:14:13 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|130584|0|30|934|51164|376244|847412|1159524|130584|316268|496|87|0|0|11696|31280|162|4|215|342|11
+11:15:13 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|130604|0|31|940|51924|376244|848436|1159524|130604|316268|496|87|0|0|11756|32040|3|4|217|343|11
+11:16:13 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|130712|0|33|969|52740|376244|850484|1159524|130712|316268|497|88|0|0|11816|32856|93|5|217|345|11
+11:17:13 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|130612|0|31|959|53432|376244|848436|1159524|130612|316268|497|87|0|0|11876|33548|3|4|219|347|11
+11:18:13 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|130688|0|32|980|54224|376244|849460|1159524|130688|316268|497|88|0|0|11936|34340|61|4|220|348|11
+11:19:13 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|130656|0|32|880|54956|376244|849460|1159524|130656|316268|497|88|0|0|11996|35072|3|4|220|350|11
+11:20:13 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|130692|0|33|874|55724|376244|850484|1159524|130692|316268|496|88|0|0|12056|35840|3|4|222|352|11
+11:21:13 CylanceSvc(1196)[29] Information: [ProcessStatistics] Stats|130636|0|32|875|56436|376244|849460|1159524|130636|316268|496|88|0|0|12116|36552|3|4|223|353|11
+11:22:13 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|130572|0|30|868|57148|376244|847412|1159524|130572|316268|496|87|0|0|12176|37268|3|4|224|354|11
+11:23:13 CylanceSvc(1196)[29] Information: [ProcessStatistics] Stats|130696|0|33|921|57980|376244|850484|1159524|130696|316268|497|88|0|0|12236|38100|166|5|225|357|11
+11:24:13 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|130588|0|30|925|58672|376244|847412|1159524|130588|316268|496|87|0|0|12296|38592|83|3|226|358|11
+11:25:14 CylanceSvc(1196)[29] Information: [ProcessStatistics] Stats|131248|0|31|893|59108|376244|848436|1159524|131248|316268|496|87|0|0|12356|38872|49|2|228|360|11
+11:26:14 CylanceSvc(1196)[29] Information: [ProcessStatistics] Stats|132264|0|31|913|59368|376244|848436|1159524|132264|316268|497|88|0|0|12416|39136|86|3|229|362|11
+11:27:14 CylanceSvc(1196)[29] Information: [ProcessStatistics] Stats|133260|0|30|904|48424|376244|847412|1159524|133260|316268|496|87|0|0|12476|32800|84|3|230|362|11
+11:27:20 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2489\g2mtranscoder.exe' is allowed by SafeList.
+11:27:20 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2491\g2mtranscoder.exe' is allowed by SafeList.
+11:27:20 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2492\g2mtranscoder.exe' is allowed by SafeList.
+11:27:20 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2539\g2mtranscoder.exe' is allowed by SafeList.
+11:27:20 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2489\G2MTranscoder.exe' is allowed by SafeList.
+11:27:20 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2491\G2MTranscoder.exe' is allowed by SafeList.
+11:27:20 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2492\G2MTranscoder.exe' is allowed by SafeList.
+11:27:20 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2539\G2MTranscoder.exe' is allowed by SafeList.
+11:27:20 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\users\lscaife\appdata\local\temp\citrixupdates\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+11:27:20 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\program files (x86)\citrix\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+11:27:20 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\1415\ImmersiveWindowsFinderDllWin8.dll' is allowed by SafeList.
+11:27:20 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\BigFix Enterprise\BES Client\__BESData\BES Support\qchain.exe' is allowed by SafeList.
+11:28:14 CylanceSvc(1196)[29] Information: [ProcessStatistics] Stats|134296|1|31|901|50756|376244|848436|1159524|134296|316268|497|88|0|2|12536|34160|1073991|279|232|368|12
+11:29:14 CylanceSvc(1196)[29] Information: [ProcessStatistics] Stats|135360|0|32|932|51140|376244|849460|1159524|135360|316268|498|88|0|0|12597|34492|86|3|233|370|12
+11:30:14 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|136348|0|31|937|51416|376244|848436|1159524|136348|316268|497|88|0|0|12657|34752|3|2|234|371|12
+11:31:14 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|137448|0|33|934|51856|376244|850484|1159524|137448|316268|496|88|0|0|12717|35160|83|3|236|373|12
+11:32:14 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|138416|0|32|919|52100|376244|849460|1159524|138416|316268|497|87|0|0|12777|35396|3|2|236|375|12
+11:33:14 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|139492|0|33|947|52412|376244|850484|1159524|139492|316268|497|88|0|0|12837|35720|86|3|237|376|12
+11:34:14 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|140420|0|31|939|52628|376244|848436|1159524|140420|316268|496|87|0|0|12897|35924|4|2|239|378|12
+11:35:14 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|141420|0|31|955|52892|376244|848436|1159524|141420|316268|496|87|0|0|12957|36188|82|2|239|380|12
+11:36:14 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|142436|0|31|952|53160|376244|848436|1159524|142436|316268|496|87|0|0|13017|36456|3|2|241|382|12
+11:37:14 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|143468|0|32|908|53536|376244|848692|1159524|143468|316268|496|87|0|0|13077|36816|3|3|242|383|12
+11:38:14 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|144480|0|32|904|53832|376244|848692|1159524|144480|316268|496|87|0|0|13137|37112|3|2|243|385|12
+11:39:14 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|145592|0|34|943|54156|376244|850740|1159524|145592|316268|496|88|0|0|13197|37436|87|3|244|387|12
+11:40:14 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|146500|0|31|942|54364|376244|847668|1159524|146500|316268|496|87|0|0|13257|37644|3|2|246|388|12
+11:41:14 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|147544|0|32|958|54672|376244|848692|1159524|147544|316268|497|88|0|0|13317|37932|88|2|246|390|12
+11:42:14 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|148648|0|34|972|47976|376244|850740|1159524|148648|316268|498|88|0|0|13377|33012|181|3|248|392|12
+11:43:14 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|149548|0|31|1007|48212|376244|847668|1159524|149548|316268|498|88|0|0|13437|33228|325|3|249|393|12
+11:44:14 CylanceSvc(1196)[33] Information: [ProcessStatistics] Stats|150764|0|36|1044|48636|376244|852788|1159524|150764|316268|498|89|0|0|13497|33648|166|3|249|395|12
+11:45:14 CylanceSvc(1196)[33] Information: [ProcessStatistics] Stats|151612|0|32|1014|48868|376244|848692|1159524|151612|316268|497|88|0|0|13557|33880|83|3|251|397|12
+11:46:14 CylanceSvc(1196)[33] Information: [ProcessStatistics] Stats|152664|0|33|995|49164|376244|849716|1159524|152664|316268|497|88|0|0|13617|34172|3|3|252|398|12
+11:47:14 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|153652|0|32|986|49416|376244|849460|1159524|153652|316268|497|88|0|0|13677|34428|3|2|254|400|12
+11:48:14 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|154820|0|35|1032|49792|376244|852532|1159524|154820|316268|499|89|0|0|13737|34796|86|3|254|402|12
+11:49:14 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|155704|0|32|1029|50008|376244|849460|1159524|155704|316268|498|88|0|0|13797|35016|3|2|255|403|12
+11:49:31 CylanceSvc(1196)[10] Information: Running the Updater (102 minute update interval, Re-run flag: 0)...
+11:49:31 CyUpdate(1060)[1] Information: CyUpdate starting, PID = 1060...
+11:50:14 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|156776|0|30|1036|50760|376244|847412|1159524|156776|316268|497|87|0|0|13857|35620|772|5|257|405|12
+11:51:14 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|158076|0|31|1015|51336|376244|848436|1159524|158076|316268|497|87|0|0|13917|36188|382|3|258|407|12
+11:52:14 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|159080|0|31|1005|51600|376244|848436|1159524|159080|316268|497|87|0|0|13977|36448|3|2|259|408|12
+11:53:14 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|160072|0|30|1006|51864|376244|847412|1159524|160072|316268|497|87|0|0|14037|36708|3|2|260|410|12
+11:54:14 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|161124|0|31|1071|52168|376244|848436|1159524|161124|316268|498|88|0|0|14097|37084|171|3|261|412|12
+11:55:14 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|162144|0|31|1017|38508|376244|848436|1159524|162144|316268|498|88|0|0|14157|37376|83|11|262|413|12
+11:56:14 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|163224|0|32|1046|46132|376244|849460|1159524|163224|316268|498|88|0|0|14217|37696|86|29|264|415|12
+11:57:14 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|164176|0|31|1044|46504|376244|848436|1159524|164176|316268|498|88|0|0|14277|37952|3|3|264|417|12
+11:58:14 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|165236|0|32|1038|47848|376244|849460|1159524|165236|316268|498|88|0|0|14337|38296|3|7|266|419|12
+11:59:14 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|166196|0|31|1034|48884|376244|848436|1159524|166196|316268|498|88|0|0|14397|38536|243|6|267|420|12
+12:00:14 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|167272|0|32|1047|49216|376244|849460|1159524|167272|316268|497|88|0|0|14457|38856|83|3|267|422|12
+12:01:14 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|168288|0|32|1058|49628|376244|849460|1159524|168288|316268|499|88|0|0|14517|39184|86|3|269|424|12
+12:02:14 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|169328|0|32|1059|49940|376244|849460|1159524|169328|316268|499|88|0|0|14577|39464|166|3|270|425|12
+12:03:14 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|170364|0|33|1060|50228|376244|850484|1159524|170364|316268|498|88|0|0|14637|39756|4|2|271|427|12
+12:04:14 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|171352|0|32|1082|50504|376244|849460|1159524|171352|316268|499|88|0|0|14697|40020|162|2|272|429|12
+12:05:14 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|172336|0|31|1086|50760|376244|848436|1159524|172336|316268|499|88|0|0|14757|40280|3|2|273|430|12
+12:06:14 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|173380|0|32|1068|51140|376244|849460|1159524|173380|316268|498|88|0|0|14817|40620|83|3|274|432|12
+12:07:15 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|174400|0|32|1035|51420|376244|849460|1159524|174400|316268|498|88|0|0|14878|40904|3|2|276|434|12
+12:08:15 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|175384|0|31|1024|51676|376244|848436|1159524|175384|316268|498|87|0|0|14938|41156|3|2|277|435|12
+12:09:15 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|176424|0|32|1031|51964|376244|849460|1159524|176424|316268|498|88|0|0|14998|41448|3|2|278|437|12
+12:10:15 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|177440|0|32|1023|52236|376244|849460|1159524|177440|316268|498|88|0|0|15058|41716|3|2|279|439|12
+12:11:15 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|178456|0|32|1023|52580|376244|849460|1159524|178456|316268|498|88|0|0|15118|42068|3|3|280|440|12
+12:12:15 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|166056|0|34|925|48276|376244|719668|1159524|166056|316268|499|84|0|0|15178|35808|84|31|282|442|12
+12:13:15 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|166144|0|36|942|47376|376244|721716|1159524|166144|316268|499|85|0|0|15238|34880|85|5|282|444|12
+12:14:15 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|166052|0|34|954|48196|376244|719668|1159524|166052|316268|499|84|0|0|15298|35476|246|5|283|445|12
+12:15:15 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|166032|0|33|970|48940|376244|718644|1159524|166032|316268|499|84|0|0|15358|36220|83|4|285|447|12
+12:16:15 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|166144|0|36|1001|49756|376244|721716|1159524|166144|316268|499|85|0|0|15418|37032|93|4|286|449|12
+12:17:15 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|166024|0|33|975|50440|376244|718644|1159524|166024|316268|499|84|0|0|15478|37712|3|4|287|450|12
+12:18:15 CylanceSvc(1196)[43] Information: [ProcessStatistics] Stats|166116|0|35|1003|51240|376244|720692|1159524|166116|316268|499|85|0|0|15538|38508|61|4|288|451|12
+12:18:45 CylanceSvc(1196)[43] Information: Command Poll Timer Busy. Will wait for next timer interval to poll for status.
+12:18:50 CylanceSvc(1196)[10] Information: [VenueCommandManager] Venue network connection state changed; new state=NotConnected
+12:19:15 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|166252|0|32|1030|53684|376244|717876|1159524|166252|316268|498|84|0|0|15598|39552|157|12|288|451|13
+12:20:15 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|165968|0|31|961|54764|376244|716596|1159524|165968|316268|498|84|0|0|15658|40344|3|6|288|451|13
+12:21:11 CylanceSvc(1196)[42] Information: [VenueCommandManager] Venue network connection state changed; new state=Connected
+12:21:15 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|166124|0|35|966|56664|376244|720692|1159524|166124|316268|498|85|0|0|15718|41420|237|9|289|456|16
+12:22:15 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|166040|0|33|977|57388|376244|718644|1159524|166040|316268|498|84|0|0|15778|42112|84|4|290|457|16
+12:23:15 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|166132|0|35|979|58188|376244|720692|1159524|166132|316268|499|84|0|0|15838|42912|83|4|292|459|16
+12:24:15 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|165988|0|31|929|58864|376244|717364|1159524|165988|316268|499|84|0|0|15898|43576|3|4|292|461|16
+12:25:15 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|166068|0|33|922|59676|376244|719412|1159524|166068|316268|498|84|0|0|15958|44376|3|4|293|462|16
+12:26:15 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|166012|0|32|925|60388|376244|718388|1159524|166012|316268|498|84|0|0|16018|45088|3|4|295|464|16
+12:27:15 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|166012|0|32|921|61136|376244|718388|1159524|166012|316268|498|84|0|0|16078|45836|3|4|296|466|16
+12:27:24 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2489\g2mtranscoder.exe' is allowed by SafeList.
+12:27:24 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2491\g2mtranscoder.exe' is allowed by SafeList.
+12:27:24 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2492\g2mtranscoder.exe' is allowed by SafeList.
+12:27:24 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2539\g2mtranscoder.exe' is allowed by SafeList.
+12:27:24 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2489\G2MTranscoder.exe' is allowed by SafeList.
+12:27:24 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2491\G2MTranscoder.exe' is allowed by SafeList.
+12:27:24 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2492\G2MTranscoder.exe' is allowed by SafeList.
+12:27:24 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2539\G2MTranscoder.exe' is allowed by SafeList.
+12:27:24 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\users\lscaife\appdata\local\temp\citrixupdates\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+12:27:24 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\program files (x86)\citrix\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+12:27:24 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\1415\ImmersiveWindowsFinderDllWin8.dll' is allowed by SafeList.
+12:27:24 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\BigFix Enterprise\BES Client\__BESData\BES Support\qchain.exe' is allowed by SafeList.
+12:28:15 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|165976|1|31|939|63936|376244|717364|1159524|165976|316268|497|84|0|2|16138|47268|1083730|281|298|470|17
+12:29:16 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|165972|0|31|934|64700|376244|717364|1159524|165972|316268|498|83|0|0|16198|48024|3|4|299|472|17
+12:30:16 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|165936|0|30|933|65424|376244|716340|1159524|165936|316268|497|83|0|0|16258|48744|3|4|300|474|17
+12:31:16 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|166052|0|33|950|66248|376244|719412|1159524|166052|316268|498|84|0|0|16318|49568|86|4|302|477|17
+12:32:16 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|166068|0|33|964|67008|376244|719412|1159524|166068|316268|498|84|0|0|16378|50320|83|4|303|477|17
+12:33:16 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|165976|0|31|949|67692|376244|717364|1159524|165976|316268|498|84|0|0|16439|51008|3|4|303|479|17
+12:34:16 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|165996|0|31|914|68448|376244|717364|1159524|165996|316268|497|83|0|0|16499|51764|3|4|305|482|17
+12:35:16 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|166000|0|32|921|69192|376244|718388|1159524|166000|316268|497|84|0|0|16559|52516|3|4|306|482|17
+12:36:16 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|165972|0|32|916|69916|376244|718388|1159524|165972|316268|496|83|0|0|16619|53228|3|4|307|484|17
+12:37:16 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|165964|0|31|962|70668|376244|717364|1159524|165964|316268|498|83|0|0|16679|53976|88|4|308|487|17
+12:38:16 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|165980|0|32|977|71420|376244|718388|1159524|165980|316268|497|84|0|0|16739|54720|83|4|309|487|17
+12:39:16 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|166068|0|34|985|72208|376244|720436|1159524|166068|316268|498|84|0|0|16799|55400|87|4|310|489|17
+12:40:16 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|165964|0|31|985|72776|376244|717364|1159524|165964|316268|498|83|0|0|16859|56000|3|4|311|492|17
+12:41:16 CylanceSvc(1196)[25] Information: [ProcessStatistics] Stats|166032|0|33|943|73468|376244|719412|1159524|166032|316268|498|84|0|0|16919|56768|3|4|313|492|17
+12:42:16 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|165928|0|31|945|74148|376244|717364|1159524|165928|316268|498|83|0|0|16979|57448|3|4|314|495|17
+12:43:16 CylanceSvc(1196)[26] Information: [ProcessStatistics] Stats|165944|0|31|946|74904|376244|717364|1159524|165944|316268|498|83|0|0|17039|58200|3|4|315|497|17
+12:44:16 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|117536|0|35|908|40200|376244|721460|1159524|117536|316268|497|84|0|0|17099|23064|83|2|316|497|17
+12:45:16 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|117356|0|31|908|40120|376244|717364|1159524|117356|316268|498|84|0|0|17159|23000|4|2|318|502|18
+12:46:16 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|117560|0|32|898|40312|376244|718388|1159524|117560|316268|497|84|0|0|17219|23240|3|2|318|504|18
+12:47:16 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|118548|0|32|907|40568|376244|718388|1159524|118548|316268|498|84|0|0|17279|23496|3|2|319|505|18
+12:48:16 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|119564|0|32|908|40844|376244|718388|1159524|119564|316268|498|84|0|0|17339|23776|3|2|321|507|18
+12:49:16 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|120560|0|31|902|41108|376244|717364|1159524|120560|316268|498|83|0|0|17399|24036|3|2|322|509|18
+12:50:16 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|121640|0|33|913|41416|376244|719412|1159524|121640|316268|498|84|0|0|17459|24344|3|2|323|510|18
+12:51:16 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|122624|0|32|913|41676|376244|718388|1159524|122624|316268|498|84|0|0|17519|24604|3|2|324|512|18
+12:52:16 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|123636|0|32|907|41948|376244|718388|1159524|123636|316268|498|84|0|0|17579|24876|3|2|325|514|18
+12:53:16 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|124652|0|32|914|42224|376244|718388|1159524|124652|316268|498|84|0|0|17639|25152|3|2|327|517|18
+12:54:16 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|125668|0|32|910|42496|376244|718388|1159524|125668|316268|498|84|0|0|17699|25428|3|2|328|517|18
+12:55:16 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|126688|0|32|907|42772|376244|718388|1159524|126688|316268|498|84|0|0|17759|25700|3|2|328|519|18
+12:56:16 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|127712|0|32|946|43056|376244|718388|1159524|127712|316268|499|84|0|0|17819|25984|86|2|330|522|18
+12:57:16 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|128772|0|33|977|43352|376244|719412|1159524|128772|316268|499|84|0|0|17879|26280|88|3|331|522|18
+12:58:16 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|129872|0|35|944|43680|376244|720692|1159524|129872|316268|500|85|0|0|17939|26608|168|3|332|524|18
+12:59:16 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|130792|0|33|939|43820|376244|718644|1159524|130792|316268|500|84|0|0|17999|26748|70|2|333|527|18
+13:00:16 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|131808|0|33|949|44100|376244|718644|1159524|131808|316268|499|84|0|0|18059|27028|201|2|334|527|18
+13:01:16 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|132820|0|33|959|44380|376244|718644|1159524|132820|316268|499|84|0|0|18119|27308|82|2|335|529|18
+13:02:16 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|133840|0|33|961|44664|376244|718644|1159524|133840|316268|499|84|0|0|18179|27592|3|2|336|532|18
+13:03:16 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|134900|0|34|978|44976|376244|719668|1159524|134900|316268|501|85|0|0|18239|27908|100|3|338|532|18
+13:04:16 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|135868|0|33|972|45264|376244|718644|1159524|135868|316268|499|84|0|0|18299|28184|255|3|339|535|18
+13:05:16 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|136868|0|32|959|45528|376244|717620|1159524|136868|316268|499|83|0|0|18359|28448|84|2|340|536|18
+13:05:41 CylanceSvc(1196)[36] Information: [Venue commands] received command: update SafeList
+13:06:04 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2489\g2mtranscoder.exe' is allowed by SafeList.
+13:06:04 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2491\g2mtranscoder.exe' is allowed by SafeList.
+13:06:04 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2492\g2mtranscoder.exe' is allowed by SafeList.
+13:06:04 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2539\g2mtranscoder.exe' is allowed by SafeList.
+13:06:04 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2489\G2MTranscoder.exe' is allowed by SafeList.
+13:06:04 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2491\G2MTranscoder.exe' is allowed by SafeList.
+13:06:04 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2492\G2MTranscoder.exe' is allowed by SafeList.
+13:06:04 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2539\G2MTranscoder.exe' is allowed by SafeList.
+13:06:04 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\users\lscaife\appdata\local\temp\citrixupdates\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+13:06:04 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\program files (x86)\citrix\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+13:06:04 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\1415\ImmersiveWindowsFinderDllWin8.dll' is allowed by SafeList.
+13:06:04 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\BigFix Enterprise\BES Client\__BESData\BES Support\qchain.exe' is allowed by SafeList.
+13:06:16 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|138020|1|36|970|46480|376244|721716|1159524|138020|316268|500|86|0|2|18419|29232|1084687|273|342|546|19
+13:07:16 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|138976|0|34|987|46736|376244|719668|1159524|138976|316268|499|85|0|0|18479|29488|83|3|344|549|19
+13:08:16 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|139956|0|33|988|46980|376244|718644|1159524|139956|316268|498|84|0|0|18539|29732|8|2|345|551|19
+13:09:16 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|140916|0|32|999|47232|376244|717620|1159524|140916|316268|498|83|0|0|18599|29984|83|2|346|551|19
+13:10:16 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|141932|0|32|977|47528|376244|717620|1159524|141932|316268|497|83|0|0|18659|30276|83|2|347|554|19
+13:11:16 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|142960|0|32|947|47804|376244|717620|1159524|142960|316268|498|83|0|0|18719|30556|8|2|348|555|19
+13:12:16 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|144100|0|32|971|48252|376244|718388|1159524|144100|316268|498|84|0|0|18779|30992|163|3|349|556|19
+13:13:16 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|145168|0|33|946|48564|376244|719412|1159524|145168|316268|498|84|0|0|18839|31296|243|3|351|559|19
+13:14:16 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|146204|0|33|960|48844|376244|719412|1159524|146204|316268|498|84|0|0|18899|31576|85|2|351|560|19
+13:15:16 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|147152|0|32|960|49096|376244|718388|1159524|147152|316268|498|83|0|0|18959|31812|162|3|353|563|19
+13:16:16 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|148268|0|34|979|49428|376244|720436|1159524|148268|316268|498|84|0|0|19019|32144|93|2|354|564|19
+13:17:17 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|149124|0|30|992|49620|376244|716340|1159524|149124|316268|498|83|0|0|19079|32324|86|2|354|565|19
+13:18:17 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|150320|0|34|1018|50036|376244|720436|1159524|150320|316268|498|84|0|0|19139|32720|164|3|356|568|19
+13:19:17 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|151244|0|32|977|50264|376244|718388|1159524|151244|316268|498|84|0|0|19199|32944|85|2|357|568|19
+13:20:17 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|152264|0|32|977|50540|376244|718388|1159524|152264|316268|498|84|0|0|19260|33224|3|2|358|570|19
+13:21:17 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|153240|0|31|971|50792|376244|717364|1159524|153240|316268|499|83|0|0|19320|33476|3|2|359|573|19
+13:22:17 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|154280|0|32|972|51088|376244|718388|1159524|154280|316268|499|83|0|0|19380|33768|3|2|360|573|19
+13:23:17 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|155300|0|32|954|51380|376244|718388|1159524|155300|316268|499|83|0|0|19440|34044|3|2|361|575|19
+13:24:17 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|156312|0|31|961|51660|376244|717364|1159524|156312|316268|499|83|0|0|19500|34324|83|2|363|578|19
+13:25:17 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|157352|0|32|959|51952|376244|718388|1159524|157352|316268|499|83|0|0|19560|34616|3|2|364|578|19
+13:26:17 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|158460|0|34|990|52276|376244|720436|1159524|158460|316268|499|84|0|0|19620|34940|86|3|365|581|19
+13:27:17 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|159360|0|31|973|52480|376244|717364|1159524|159360|316268|499|83|0|0|19680|35148|3|2|366|583|19
+13:28:17 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|160400|0|32|994|52780|376244|718388|1159524|160400|316268|499|83|0|0|19740|35444|83|2|367|583|19
+13:29:17 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|161420|0|32|952|53064|376244|718388|1159524|161420|316268|499|83|0|0|19800|35728|3|2|369|586|19
+13:30:17 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|162436|0|32|973|53336|376244|718388|1159524|162436|316268|499|84|0|0|19860|36008|86|2|369|588|19
+13:31:17 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|163456|0|32|988|53620|376244|718388|1159524|163456|316268|499|83|0|0|19920|36280|83|2|370|588|19
+13:32:17 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|164468|0|32|988|53888|376244|718388|1159524|164468|316268|499|83|0|0|19980|36552|3|2|372|591|19
+13:33:17 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|165472|0|31|974|54164|376244|717364|1159524|165472|316268|498|83|0|0|20040|36824|3|2|373|593|19
+13:34:17 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|166468|0|31|1001|38272|376244|717364|1159524|166468|316268|498|83|0|0|20100|37084|86|11|374|593|19
+13:35:17 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|167484|0|31|1000|42768|376244|717364|1159524|167484|316268|498|83|0|0|20160|37364|3|16|375|596|19
+13:36:17 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|168540|0|33|1004|46244|376244|718644|1159524|168540|316268|498|84|0|0|20220|37660|88|16|376|598|19
+13:37:17 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|169548|0|32|1007|46640|376244|718388|1159524|169548|316268|499|84|0|0|20280|37944|82|3|377|600|19
+13:38:17 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|170572|0|32|1018|46952|376244|718388|1159524|170572|316268|499|84|0|0|20340|38232|66|2|379|601|19
+13:38:32 CylanceSvc(1196)[46] Information: Running the Updater (108 minute update interval, Re-run flag: 0)...
+13:38:32 CyUpdate(1676)[1] Information: CyUpdate starting, PID = 1676...
+13:39:17 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|171800|0|34|1066|48476|376244|720436|1159524|171800|316268|498|84|0|0|20400|38768|754|8|379|603|19
+13:40:17 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|172856|0|32|1007|49008|376244|718388|1159524|172856|316268|498|83|0|0|20460|39196|466|4|381|605|19
+13:41:17 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|173968|0|34|1037|49648|376244|720436|1159524|173968|316268|498|84|0|0|20520|39540|83|4|382|606|19
+13:42:17 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|174896|0|32|1037|49880|376244|718388|1159524|174896|316268|499|83|0|0|20580|39768|3|5|382|608|19
+13:43:17 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|117440|0|32|897|35444|376244|718388|1159524|117440|316268|499|83|0|0|20640|23732|3|5|384|610|19
+13:44:17 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|117496|0|34|920|36148|376244|720436|1159524|117496|316268|498|84|0|0|20700|23744|83|4|385|611|19
+13:45:17 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|117680|0|32|919|36264|376244|718388|1159524|117680|316268|498|83|0|0|20760|23944|3|2|386|613|19
+13:46:17 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|118716|0|32|915|36576|376244|718388|1159524|118716|316268|498|83|0|0|20820|24224|3|2|387|615|19
+13:47:17 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|119728|0|32|911|36856|376244|718388|1159524|119728|316268|498|83|0|0|20880|24504|3|2|388|616|19
+13:48:17 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|120744|0|32|912|37132|376244|718388|1159524|120744|316268|498|83|0|0|20940|24780|3|2|390|618|19
+13:49:17 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|121736|0|31|891|37440|376244|717364|1159524|121736|316268|498|83|0|0|21000|25080|3|2|391|620|19
+13:50:17 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|122832|0|34|902|37756|376244|719668|1159524|122832|316268|498|84|0|0|21060|25400|4|2|392|621|19
+13:51:17 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|123808|0|33|923|38024|376244|718644|1159524|123808|316268|499|84|0|0|21120|25668|86|2|393|623|19
+13:52:17 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|124884|0|34|939|38336|376244|719668|1159524|124884|316268|498|84|0|0|21180|25980|83|2|394|625|19
+13:53:17 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|125932|0|35|968|38640|376244|720692|1159524|125932|316268|499|84|0|0|21240|26284|86|2|395|626|19
+13:54:23 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|126864|0|33|966|38876|376244|718644|1159524|126864|316268|499|83|0|0|21306|26516|3|2|397|628|19
+13:55:23 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|127888|0|33|941|39152|376244|719412|1159524|127888|316268|499|84|0|0|21366|26788|84|2|397|630|19
+13:56:23 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|128844|0|31|959|39400|376244|717364|1159524|128844|316268|499|83|0|0|21426|27032|83|2|399|633|19
+13:57:23 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|129884|0|32|980|39692|376244|718388|1159524|129884|316268|498|83|0|0|21486|27320|83|2|400|633|19
+13:58:23 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|130904|0|32|978|39968|376244|718388|1159524|130904|316268|498|83|0|0|21546|27596|3|2|400|635|19
+13:59:23 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|131912|0|32|933|40240|376244|718388|1159524|131912|316268|498|83|0|0|21606|27868|3|2|402|637|19
+14:00:23 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|132928|0|32|935|40516|376244|718388|1159524|132928|316268|498|83|0|0|21666|28144|3|2|403|638|19
+14:01:23 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|133944|0|32|906|40808|376244|718388|1159524|133944|316268|498|83|0|0|21726|28416|3|2|404|640|19
+14:02:23 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|134940|0|31|906|41076|376244|717364|1159524|134940|316268|498|83|0|0|21786|28676|3|2|405|642|19
+14:03:23 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|135980|0|32|910|41368|376244|718388|1159524|135980|316268|498|83|0|0|21846|28968|3|2|407|643|19
+14:04:23 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|137016|0|33|911|41652|376244|718644|1159524|137016|316268|498|83|0|0|21906|29252|3|2|408|645|19
+14:05:23 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|138016|0|32|906|41916|376244|718388|1159524|138016|316268|498|83|0|0|21966|29516|3|2|409|647|19
+14:06:07 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2489\g2mtranscoder.exe' is allowed by SafeList.
+14:06:07 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2491\g2mtranscoder.exe' is allowed by SafeList.
+14:06:07 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2492\g2mtranscoder.exe' is allowed by SafeList.
+14:06:07 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2539\g2mtranscoder.exe' is allowed by SafeList.
+14:06:07 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2489\G2MTranscoder.exe' is allowed by SafeList.
+14:06:07 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2491\G2MTranscoder.exe' is allowed by SafeList.
+14:06:07 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2492\G2MTranscoder.exe' is allowed by SafeList.
+14:06:07 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2539\G2MTranscoder.exe' is allowed by SafeList.
+14:06:07 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\users\lscaife\appdata\local\temp\citrixupdates\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+14:06:07 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\program files (x86)\citrix\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+14:06:07 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\1415\ImmersiveWindowsFinderDllWin8.dll' is allowed by SafeList.
+14:06:07 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\BigFix Enterprise\BES Client\__BESData\BES Support\qchain.exe' is allowed by SafeList.
+14:06:23 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|139120|1|34|929|43952|376244|720436|1159524|139120|316268|499|85|0|1|22026|29840|1083749|277|411|651|20
+14:07:23 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|140052|0|32|928|44188|376244|718388|1159524|140052|316268|499|85|0|0|22086|30076|3|2|412|654|20
+14:08:23 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|141096|0|32|920|44516|376244|718388|1159524|141096|316268|499|84|0|0|22146|30364|3|2|413|656|20
+14:09:23 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|142100|0|32|919|44788|376244|718388|1159524|142100|316268|499|84|0|0|22206|30636|3|2|414|656|20
+14:10:23 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|143120|0|32|923|45068|376244|718388|1159524|143120|316268|499|84|0|0|22266|30916|3|2|416|659|20
+14:11:23 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|144112|0|31|910|45360|376244|717364|1159524|144112|316268|499|84|0|0|22326|31176|3|2|416|661|20
+14:12:23 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|145312|0|33|968|47208|376244|719412|1159524|145312|316268|500|84|0|0|22386|31628|170|9|417|661|20
+14:13:23 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|146308|0|33|1002|47476|376244|719412|1159524|146308|316268|500|84|0|0|22446|31888|249|3|419|664|20
+14:14:23 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|147356|0|33|978|47796|376244|719412|1159524|147356|316268|499|84|0|0|22506|32184|226|3|420|666|20
+14:15:23 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|148376|0|34|993|48076|376244|719668|1159524|148376|316268|499|84|0|0|22566|32444|82|2|421|668|20
+14:16:23 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|148648|0|34|966|33684|376244|720436|1159524|148648|316268|500|85|0|0|22626|32424|258|15|422|669|20
+14:17:24 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|148636|0|33|956|40524|376244|719412|1159524|148636|316268|499|84|0|0|22687|32736|82|24|423|671|20
+14:18:24 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|148576|0|32|972|41492|376244|718388|1159524|148576|316268|500|84|0|0|22747|33448|89|6|425|673|20
+14:18:54 CylanceSvc(1196)[15] Information: [Cylance.Host.MemDef.MemDef] Out of process write PE received => 1264, 2752512, True, 4096, System.Byte[]
+14:18:55 CylanceSvc(1196)[15] Information: [Cylance.Host.MemDef.MemDef] Process Action Blocked
+14:18:55 CylanceSvc(1196)[15] Information: [Cylance.Host.MemDef.MemDef] Out of process write PE received => 2400, 6225920, True, 4096, System.Byte[]
+14:18:57 CylanceSvc(1196)[15] Information: [Cylance.Host.MemDef.MemDef] Process Action Blocked
+14:19:24 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|148724|0|35|952|26844|376244|720692|1159524|148724|316268|503|85|0|0|22807|14300|386|58|426|674|20
+14:20:24 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|148724|0|35|951|22836|376244|720692|1159524|148724|316268|501|85|0|0|22867|12640|6|8|426|676|20
+14:21:24 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|148748|0|35|949|26176|376244|720692|1159524|148748|316268|501|85|0|0|22927|14916|3|15|428|678|20
+14:22:24 CylanceSvc(1196)[35] Information: [ProcessStatistics] Stats|148728|0|35|951|27308|376244|720692|1159524|148728|316268|501|85|0|0|22987|16060|6|6|429|679|20
+14:23:10 CylanceSvc(1196)[41] Information: [Cylance.Host.MemDef.MemDef] GetThreatProcessList - returning 1 processed violations
+14:23:24 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|149428|0|37|992|38600|376244|723252|1159524|149428|316268|502|86|0|0|23047|22496|6466|52|431|681|20
+14:24:24 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|149252|0|33|990|39560|376244|719156|1159524|149252|316268|501|85|0|0|23107|23292|3|7|432|683|20
+14:25:24 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|148800|0|35|952|40568|376244|720692|1159524|148800|316268|499|84|0|0|23167|24388|3|6|433|684|20
+14:26:24 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|148684|0|32|950|41508|376244|717620|1159524|148684|316268|499|83|0|0|23227|25332|3|5|435|686|20
+14:27:24 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|148664|0|31|946|42512|376244|716596|1159524|148664|316268|499|83|0|0|23287|26336|3|5|436|688|20
+14:28:24 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|148700|0|33|994|42472|376244|718644|1159524|148700|316268|500|84|0|0|23347|27096|170|6|437|689|20
+14:29:24 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|148760|0|34|1003|43548|376244|719668|1159524|148760|316268|500|84|0|0|23407|28156|82|5|438|691|20
+14:30:24 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|148720|0|33|1000|43844|376244|718644|1159524|148720|316268|499|83|0|0|23467|28472|168|6|439|693|20
+14:31:24 CylanceSvc(1196)[21] Information: [ProcessStatistics] Stats|148844|0|36|1016|45080|376244|721716|1159524|148844|316268|499|84|0|0|23527|29636|83|6|440|694|20
+14:32:24 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|148672|0|32|1002|46000|376244|717620|1159524|148672|316268|498|83|0|0|23587|30556|3|5|442|696|20
+14:33:24 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|148692|0|32|992|47048|376244|717620|1159524|148692|316268|498|83|0|0|23647|31588|3|5|442|698|20
+14:34:24 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|148688|0|33|1001|48056|376244|718644|1159524|148688|316268|498|83|0|0|23707|32600|3|5|443|699|20
+14:35:24 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|148692|0|33|1000|49112|376244|718644|1159524|148692|316268|498|83|0|0|23767|33624|3|5|445|701|20
+14:36:24 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|148696|0|33|1001|50152|376244|718644|1159524|148696|316268|498|83|0|0|23827|34656|3|5|445|703|20
+14:37:24 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|148676|0|32|1006|51188|376244|717620|1159524|148676|316268|499|83|0|0|23887|35692|3|5|447|706|20
+14:38:25 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|148700|0|33|1012|52224|376244|718644|1159524|148700|316268|499|83|0|0|23947|36912|3|6|448|706|20
+14:39:25 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|124580|0|34|922|32388|376244|719668|1159524|124580|316268|499|84|0|0|24007|19400|87|25|449|708|20
+14:40:25 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|124576|0|34|944|33472|376244|719668|1159524|124576|316268|500|84|0|0|24068|20420|86|6|450|711|20
+14:41:25 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|124588|0|34|968|34484|376244|719668|1159524|124588|316268|500|84|0|0|24128|21416|83|6|452|711|20
+14:42:25 CylanceSvc(1196)[21] Information: [ProcessStatistics] Stats|124648|0|35|977|35524|376244|720692|1159524|124648|316268|499|84|0|0|24188|22432|83|6|452|713|20
+14:43:25 CylanceSvc(1196)[21] Information: [ProcessStatistics] Stats|124564|0|33|971|36476|376244|718644|1159524|124564|316268|499|83|0|0|24248|23384|3|5|454|715|20
+14:44:25 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|124540|0|32|988|37452|376244|718388|1159524|124540|316268|499|83|0|0|24308|24364|83|5|455|716|20
+14:45:25 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|124512|0|31|989|38416|376244|717364|1159524|124512|316268|499|83|0|0|24368|25328|3|5|455|718|20
+14:46:25 CylanceSvc(1196)[38] Information: [ProcessStatistics] Stats|124524|0|32|985|39412|376244|718388|1159524|124524|316268|499|83|0|0|24428|26256|3|4|457|720|20
+14:47:25 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|124844|0|31|976|40100|376244|717364|1159524|124844|316268|497|82|0|0|24488|26480|3|2|458|721|20
+14:48:25 CylanceSvc(1196)[21] Information: [ProcessStatistics] Stats|125888|0|32|984|40964|376244|717620|1159524|125888|316268|498|83|0|0|24548|27056|3|5|460|723|20
+14:49:25 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|126904|0|31|994|41232|376244|717364|1159524|126904|316268|498|83|0|0|24608|27332|4|2|460|725|20
+14:50:25 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|127964|0|32|1020|41616|376244|718388|1159524|127964|316268|498|83|0|0|24668|27676|86|3|461|726|20
+14:51:25 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|128984|0|32|927|41996|376244|718388|1159524|128984|316268|499|83|0|0|24728|28036|84|3|463|728|20
+14:52:25 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|129988|0|32|941|42264|376244|717620|1159524|129988|316268|499|83|0|0|24788|28300|83|2|464|730|20
+14:53:25 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|131140|0|35|980|42640|376244|720692|1159524|131140|316268|499|84|0|0|24848|28672|244|3|465|731|20
+14:54:25 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|132060|0|33|995|42860|376244|718644|1159524|132060|316268|500|84|0|0|24908|28888|87|3|466|733|20
+14:55:25 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|133136|0|34|1003|43168|376244|719668|1159524|133136|316268|499|84|0|0|24968|29188|163|2|467|735|20
+14:56:25 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|134076|0|33|1013|43548|376244|718644|1159524|134076|316268|498|83|0|0|25028|29568|84|3|468|736|20
+14:57:27 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|135096|0|33|1020|43840|376244|718644|1159524|135096|316268|499|83|0|0|25090|29944|3|3|470|738|20
+14:58:27 CylanceSvc(1196)[33] Information: [ProcessStatistics] Stats|136092|0|32|1031|44204|376244|718388|1159524|136092|316268|498|83|0|0|25150|30224|83|3|470|740|20
+14:59:27 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|137124|0|32|1037|44552|376244|718388|1159524|137124|316268|499|83|0|0|25210|30556|3|2|472|743|20
+15:00:27 CylanceSvc(1196)[33] Information: [ProcessStatistics] Stats|138212|0|34|1072|44896|376244|720436|1159524|138212|316268|499|84|0|0|25270|30944|86|3|473|743|20
+15:01:27 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|139148|0|32|921|45160|376244|718388|1159524|139148|316268|499|83|0|0|25330|31168|3|2|473|745|20
+15:02:27 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|140168|0|32|943|45440|376244|718388|1159524|140168|316268|499|83|0|0|25390|31444|83|2|475|748|20
+15:03:27 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|141184|0|32|941|45716|376244|718388|1159524|141184|316268|499|83|0|0|25450|31712|3|2|476|748|20
+15:04:27 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|142200|0|32|959|45984|376244|718388|1159524|142200|316268|499|83|0|0|25510|31984|86|2|477|750|20
+15:05:27 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|143192|0|31|994|46244|376244|717364|1159524|143192|316268|499|83|0|0|25570|32240|166|2|478|753|20
+15:06:10 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2489\g2mtranscoder.exe' is allowed by SafeList.
+15:06:10 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2491\g2mtranscoder.exe' is allowed by SafeList.
+15:06:10 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2492\g2mtranscoder.exe' is allowed by SafeList.
+15:06:10 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2539\g2mtranscoder.exe' is allowed by SafeList.
+15:06:10 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2489\G2MTranscoder.exe' is allowed by SafeList.
+15:06:10 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2491\G2MTranscoder.exe' is allowed by SafeList.
+15:06:10 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2492\G2MTranscoder.exe' is allowed by SafeList.
+15:06:10 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2539\G2MTranscoder.exe' is allowed by SafeList.
+15:06:10 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\users\lscaife\appdata\local\temp\citrixupdates\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+15:06:10 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\program files (x86)\citrix\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+15:06:10 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\1415\ImmersiveWindowsFinderDllWin8.dll' is allowed by SafeList.
+15:06:10 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\BigFix Enterprise\BES Client\__BESData\BES Support\qchain.exe' is allowed by SafeList.
+15:06:27 CylanceSvc(1196)[29] Information: [ProcessStatistics] Stats|144400|1|36|951|51032|376244|722484|1159524|144400|316268|499|85|0|2|25630|34788|1073897|289|480|757|21
+15:07:27 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|145248|0|32|935|51224|376244|718388|1159524|145248|316268|498|84|0|0|25690|34972|3|2|481|759|21
+15:08:27 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|146244|0|31|987|51532|376244|717364|1159524|146244|316268|499|83|0|0|25750|35240|251|3|483|761|21
+15:09:27 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|147400|0|35|978|51884|376244|720692|1159524|147400|316268|498|84|0|0|25810|35592|163|3|484|762|21
+15:10:27 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|148304|0|32|956|52088|376244|718388|1159524|148304|316268|498|83|0|0|25870|35796|3|2|485|764|21
+15:11:27 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|149296|0|31|975|52388|376244|717364|1159524|149296|316268|499|83|0|0|25930|36060|86|2|486|766|21
+15:12:27 CylanceSvc(1196)[29] Information: [ProcessStatistics] Stats|150524|0|34|1001|54360|376244|720436|1159524|150524|316268|498|84|0|0|25990|36880|164|10|487|767|21
+15:13:27 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|151508|0|33|1022|54608|376244|719412|1159524|151508|316268|498|83|0|0|26050|37128|83|3|489|769|21
+15:14:27 CylanceSvc(1196)[29] Information: [ProcessStatistics] Stats|152560|0|33|1044|54892|376244|719412|1159524|152560|316268|498|83|0|0|26110|37412|84|2|489|771|21
+15:15:27 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|124632|0|35|929|39532|376244|720692|1159524|124632|316268|499|84|0|0|26170|24312|247|9|490|772|21
+15:16:27 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|124604|0|34|949|40460|376244|720436|1159524|124604|316268|498|84|0|0|26230|25244|174|5|492|774|21
+15:17:27 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|124532|0|32|925|41388|376244|718388|1159524|124532|316268|498|83|0|0|26290|26172|3|5|493|776|21
+15:18:27 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|124552|0|33|948|42368|376244|719412|1159524|124552|316268|498|83|0|0|26350|27156|61|5|494|777|21
+15:19:27 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|124520|0|32|941|43324|376244|718388|1159524|124520|316268|498|83|0|0|26410|28100|3|5|495|779|21
+15:20:27 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|124540|0|32|923|44276|376244|718388|1159524|124540|316268|498|83|0|0|26470|28424|3|2|496|781|21
+15:21:27 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|124508|0|31|965|44276|376244|717364|1159524|124508|316268|499|83|0|0|26530|28452|86|1|497|783|21
+15:22:27 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|124476|0|31|975|44296|376244|717364|1159524|124476|316268|498|83|0|0|26590|28552|168|2|499|784|21
+15:23:27 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|124900|0|32|1002|44596|376244|718388|1159524|124900|316268|497|83|0|0|26650|28832|163|3|499|786|21
+15:24:28 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|125932|0|32|1033|44880|376244|718388|1159524|125932|316268|498|83|0|0|26710|29108|87|2|501|788|21
+15:25:28 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|127032|0|34|982|45220|376244|720436|1159524|127032|316268|499|84|0|0|26770|29444|170|3|502|789|21
+15:26:28 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|127968|0|32|946|45460|376244|718388|1159524|127968|316268|497|83|0|0|26830|29672|245|3|502|791|21
+15:27:28 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|129160|0|37|1015|45808|376244|722740|1159524|129160|316268|497|84|0|0|26890|30020|325|3|504|793|21
+15:28:28 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|129988|0|33|1030|45976|376244|718644|1159524|129988|316268|497|83|0|0|26951|30188|251|2|505|794|21
+15:29:28 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|131148|0|36|1071|46432|376244|721716|1159524|131148|316268|497|84|0|0|27011|30640|242|3|506|796|21
+15:30:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|132052|0|33|1094|46648|376244|718644|1159524|132052|316268|497|83|0|0|27071|30912|83|3|507|798|21
+15:31:28 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|133168|0|35|1107|47028|376244|720692|1159524|133168|316268|496|83|0|0|27131|31288|82|3|508|799|21
+15:31:32 CylanceSvc(1196)[10] Information: Running the Updater (112 minute update interval, Re-run flag: 0)...
+15:31:32 CyUpdate(5580)[1] Information: CyUpdate starting, PID = 5580...
+15:32:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|134268|0|34|958|48068|376244|719668|1159524|134268|316268|498|83|0|0|27191|32040|925|6|510|801|21
+15:33:28 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|135364|0|33|976|48548|376244|718644|1159524|135364|316268|498|83|0|0|27251|32520|462|3|511|803|21
+15:34:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|136404|0|33|1010|48828|376244|719412|1159524|136404|316268|498|83|0|0|27311|32800|164|2|512|804|21
+15:35:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|137372|0|32|994|49060|376244|718388|1159524|137372|316268|498|83|0|0|27371|33028|3|2|513|806|21
+15:36:28 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|138388|0|32|1011|49336|376244|718388|1159524|138388|316268|497|83|0|0|27431|33296|84|2|514|808|21
+15:37:28 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|139404|0|32|951|49620|376244|718388|1159524|139404|316268|497|83|0|0|27491|33580|3|2|515|809|21
+15:38:28 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|140408|0|31|947|37556|376244|717364|1159524|140408|316268|497|83|0|0|27551|25956|192|6|517|811|21
+15:39:28 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|141448|0|32|961|37848|376244|718388|1159524|141448|316268|497|83|0|0|27611|26236|89|2|517|813|21
+15:40:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|142456|0|32|986|38148|376244|718388|1159524|142456|316268|498|83|0|0|27671|26500|88|3|518|814|21
+15:41:28 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|143448|0|31|999|38432|376244|717364|1159524|143448|316268|497|83|0|0|27731|26772|83|2|520|816|21
+15:42:28 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|144492|0|32|992|38720|376244|718388|1159524|144492|316268|497|83|0|0|27791|27060|3|2|520|818|21
+15:43:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|145508|0|32|984|38992|376244|718388|1159524|145508|316268|498|83|0|0|27851|27332|8|2|522|821|21
+15:44:28 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|146524|0|32|1031|39264|376244|718388|1159524|146524|316268|497|83|0|0|27911|27668|161|3|523|821|21
+15:45:28 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|147540|0|32|940|39632|376244|718388|1159524|147540|316268|497|83|0|0|27971|27924|83|2|524|823|21
+15:46:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|148556|0|32|944|39892|376244|718388|1159524|148556|316268|497|83|0|0|28031|28184|3|2|525|826|21
+15:47:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|149628|0|34|975|40212|376244|719668|1159524|149628|316268|497|83|0|0|28091|28484|87|3|527|826|21
+15:48:28 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|150560|0|31|979|40424|376244|717364|1159524|150560|316268|497|82|0|0|28151|28696|83|2|527|828|21
+15:49:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|151608|0|32|985|40712|376244|718388|1159524|151608|316268|497|83|0|0|28211|28984|3|2|529|831|21
+15:50:28 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|152628|0|32|1001|40980|376244|718388|1159524|152628|316268|497|83|0|0|28271|29252|86|2|530|831|21
+15:51:28 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|153616|0|31|1011|41292|376244|717364|1159524|153616|316268|496|82|0|0|28331|29544|83|3|530|833|21
+15:52:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|154724|0|34|1077|41632|376244|719668|1159524|154724|316268|497|83|0|0|28391|29888|272|3|532|836|21
+15:53:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|155624|0|31|1077|42280|376244|717364|1159524|155624|316268|496|83|0|0|28451|30244|149|4|533|836|21
+15:54:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|156620|0|30|953|42672|376244|716340|1159524|156620|316268|496|82|0|0|28511|30616|85|3|535|839|21
+15:55:28 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|157668|0|31|944|42992|376244|717364|1159524|157668|316268|496|82|0|0|28571|30928|3|2|535|841|21
+15:56:28 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|158676|0|31|942|43244|376244|717364|1159524|158676|316268|496|82|0|0|28631|31180|3|2|536|841|21
+15:57:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|159692|0|31|940|43508|376244|717364|1159524|159692|316268|496|82|0|0|28691|31444|3|2|538|844|21
+15:58:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|160708|0|31|934|43768|376244|717364|1159524|160708|316268|496|82|0|0|28751|31704|3|2|539|846|21
+15:59:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|161724|0|31|937|44032|376244|717364|1159524|161724|316268|496|82|0|0|28811|31968|3|2|540|846|21
+16:00:28 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|162820|0|32|1007|44348|376244|718388|1159524|162820|316268|497|83|0|0|28871|32324|152|3|541|849|21
+16:01:28 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|163804|0|32|1002|44692|376244|718388|1159524|163804|316268|496|83|0|0|28931|32564|83|2|542|851|21
+16:02:28 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|164804|0|32|1025|44952|376244|717620|1159524|164804|316268|497|83|0|0|28991|32820|162|2|543|851|21
+16:03:28 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|165800|0|31|1029|45208|376244|716596|1159524|165800|316268|497|82|0|0|29051|33076|3|2|545|854|21
+16:04:28 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|166848|0|32|949|45540|376244|717620|1159524|166848|316268|496|83|0|0|29111|33400|83|3|545|856|21
+16:05:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|167884|0|33|948|45812|376244|718644|1159524|167884|316268|496|83|0|0|29171|33672|4|2|547|858|21
+16:06:14 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2489\g2mtranscoder.exe' is allowed by SafeList.
+16:06:14 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2491\g2mtranscoder.exe' is allowed by SafeList.
+16:06:14 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2492\g2mtranscoder.exe' is allowed by SafeList.
+16:06:14 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2539\g2mtranscoder.exe' is allowed by SafeList.
+16:06:14 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2489\G2MTranscoder.exe' is allowed by SafeList.
+16:06:14 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2491\G2MTranscoder.exe' is allowed by SafeList.
+16:06:14 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2492\G2MTranscoder.exe' is allowed by SafeList.
+16:06:14 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2539\G2MTranscoder.exe' is allowed by SafeList.
+16:06:14 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\users\lscaife\appdata\local\temp\citrixupdates\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+16:06:14 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\program files (x86)\citrix\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+16:06:14 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\1415\ImmersiveWindowsFinderDllWin8.dll' is allowed by SafeList.
+16:06:14 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\BigFix Enterprise\BES Client\__BESData\BES Support\qchain.exe' is allowed by SafeList.
+16:06:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|168952|1|34|978|50320|376244|719668|1159524|168952|316268|497|84|0|1|29231|35972|1083862|288|549|862|22
+16:07:28 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|169892|0|32|973|50560|376244|717620|1159524|169892|316268|497|84|0|0|29291|36208|3|2|549|864|22
+16:08:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|171012|0|34|1009|50960|376244|719668|1159524|171012|316268|497|84|0|0|29351|36552|88|3|551|866|22
+16:09:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|171936|0|32|1009|51180|376244|717620|1159524|171936|316268|497|83|0|0|29411|36768|82|2|552|867|22
+16:10:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|172928|0|31|1019|51428|376244|716596|1159524|172928|316268|496|83|0|0|29471|37020|83|2|553|869|22
+16:11:28 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|173972|0|32|1019|51748|376244|717620|1159524|173972|316268|496|83|0|0|29531|37304|3|2|554|871|22
+16:12:28 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|124632|0|35|909|39868|376244|720692|1159524|124632|316268|498|84|0|0|29591|24696|419|29|555|872|22
+16:13:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|124652|0|35|964|40860|376244|720692|1159524|124652|316268|498|84|0|0|29651|25680|245|6|556|874|22
+16:14:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|124588|0|34|996|41836|376244|719668|1159524|124588|316268|498|84|0|0|29711|26616|417|6|558|876|22
+16:15:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|124684|0|36|1023|42824|376244|721716|1159524|124684|316268|498|84|0|0|29771|27352|247|4|559|877|22
+16:16:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|124588|0|33|984|43492|376244|718644|1159524|124588|316268|498|84|0|0|29831|28212|340|5|560|879|22
+16:17:28 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|124652|0|35|964|44460|376244|720692|1159524|124652|316268|498|84|0|0|29891|29032|169|4|561|881|22
+16:18:28 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|124544|0|33|982|44864|376244|718644|1159524|124544|316268|498|84|0|0|29951|29016|140|2|562|882|22
+16:19:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|124608|0|34|1027|44960|376244|719668|1159524|124608|316268|499|84|0|0|30011|29200|233|2|564|884|22
+16:20:28 CylanceSvc(1196)[27] Information: [ProcessStatistics] Stats|124900|0|32|1011|45204|376244|718388|1159524|124900|316268|499|84|0|0|30071|29404|3|2|564|886|22
+16:21:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|125928|0|32|1041|45488|376244|718388|1159524|125928|316268|499|84|0|0|30131|29684|250|2|565|887|22
+16:22:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|126920|0|31|1083|36744|376244|717364|1159524|126920|316268|499|84|0|0|30191|29940|167|35|567|889|22
+16:23:28 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|128000|0|33|990|38288|376244|719412|1159524|128000|316268|498|84|0|0|30251|30244|84|4|568|891|22
+16:24:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|128928|0|31|941|38968|376244|717364|1159524|128928|316268|498|83|0|0|30311|30460|148|4|569|892|22
+16:25:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|129920|0|30|972|39248|376244|716340|1159524|129920|316268|498|83|0|0|30371|30708|86|2|570|894|22
+16:26:28 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|130960|0|31|986|39540|376244|717364|1159524|130960|316268|498|83|0|0|30431|30992|83|2|571|896|22
+16:27:28 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|132072|0|33|952|40056|376244|719412|1159524|132072|316268|498|84|0|0|30491|31316|166|3|572|899|22
+16:28:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|133096|0|33|964|40424|376244|718644|1159524|133096|316268|497|84|0|0|30551|31588|83|3|574|899|22
+16:29:28 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|134020|0|31|979|40640|376244|717364|1159524|134020|316268|498|83|0|0|30611|31804|86|2|574|901|22
+16:30:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|135124|0|33|965|40980|376244|719412|1159524|135124|316268|498|84|0|0|30671|32124|223|3|576|904|22
+16:31:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|136024|0|30|963|41224|376244|716340|1159524|136024|316268|498|83|0|0|30731|32332|86|2|577|904|22
+16:32:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|137068|0|31|975|41536|376244|717364|1159524|137068|316268|498|83|0|0|30791|32620|83|3|577|906|22
+16:33:29 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|138084|0|31|974|41804|376244|717364|1159524|138084|316268|498|83|0|0|30852|32888|3|2|579|909|22
+16:34:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|139088|0|30|958|43000|376244|716340|1159524|139088|316268|498|83|0|0|30912|33152|3|6|580|909|22
+16:35:29 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|140112|0|31|991|43932|376244|717364|1159524|140112|316268|498|84|0|0|30972|33416|86|5|581|911|22
+16:36:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|141132|0|31|1004|44220|376244|717364|1159524|141132|316268|498|83|0|0|31032|33688|83|3|582|914|22
+16:37:29 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|142124|0|30|922|44488|376244|716340|1159524|142124|316268|498|83|0|0|31092|33956|3|2|583|914|22
+16:38:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|143160|0|31|919|44792|376244|717364|1159524|143160|316268|498|83|0|0|31152|34236|3|2|585|917|22
+16:39:29 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|144232|0|32|967|45468|376244|718388|1159524|144232|316268|498|84|0|0|31212|34556|87|4|586|919|22
+16:40:29 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|145220|0|31|956|45724|376244|717364|1159524|145220|316268|498|83|0|0|31272|34804|3|2|587|919|22
+16:41:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|146252|0|32|953|46024|376244|718388|1159524|146252|316268|499|84|0|0|31332|35084|3|2|588|922|22
+16:42:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|147276|0|32|952|46296|376244|718388|1159524|147276|316268|499|84|0|0|31392|35352|3|2|589|923|22
+16:43:29 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|148288|0|32|950|46564|376244|718388|1159524|148288|316268|499|84|0|0|31452|35620|3|2|590|924|22
+16:44:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|149288|0|31|980|46832|376244|717364|1159524|149288|316268|499|83|0|0|31512|35880|83|2|592|927|22
+16:45:29 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|150328|0|32|974|47116|376244|718388|1159524|150328|316268|499|84|0|0|31572|36164|3|2|592|928|22
+16:46:29 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|151352|0|32|991|47388|376244|718388|1159524|151352|316268|499|84|0|0|31632|36436|86|2|593|929|22
+16:47:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|152344|0|31|960|47664|376244|717364|1159524|152344|316268|499|83|0|0|31692|36712|83|3|595|931|22
+16:48:29 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|153392|0|32|985|47952|376244|718388|1159524|153392|316268|499|84|0|0|31752|37004|86|2|595|933|22
+16:49:29 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|154448|0|33|997|48244|376244|719412|1159524|154448|316268|499|84|0|0|31812|37296|86|2|597|936|22
+16:50:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|155448|0|33|1001|48512|376244|718644|1159524|155448|316268|499|84|0|0|31872|37564|82|2|598|936|22
+16:51:29 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|156512|0|34|994|49368|376244|719668|1159524|156512|316268|499|84|0|0|31932|37780|3|4|599|938|22
+16:52:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|156452|0|33|895|49416|376244|718644|1159524|156452|316268|499|84|0|0|31992|37744|3|1|600|941|22
+16:53:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|156476|0|33|935|49436|376244|718644|1159524|156476|316268|500|84|0|0|32052|37764|86|2|602|941|22
+16:54:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|156452|0|32|942|49420|376244|717620|1159524|156452|316268|499|84|0|0|32112|37748|83|1|602|943|22
+16:55:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|156476|0|33|933|49436|376244|718644|1159524|156476|316268|499|84|0|0|32172|37764|3|1|604|946|22
+16:56:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|156432|0|32|915|49404|376244|717620|1159524|156432|316268|499|84|0|0|32232|37732|3|1|605|946|22
+16:57:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|156460|0|33|913|49432|376244|718644|1159524|156460|316268|499|84|0|0|32292|37752|3|1|605|948|22
+16:58:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|156456|0|33|917|49428|376244|718644|1159524|156456|316268|499|84|0|0|32352|37748|3|2|607|951|22
+16:59:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|156460|0|33|914|49644|376244|718644|1159524|156460|316268|499|84|0|0|32412|38388|3|4|608|951|22
+17:00:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|156460|0|33|918|50392|376244|718644|1159524|156460|316268|499|84|0|0|32472|39136|3|4|610|954|22
+17:01:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|156460|0|33|917|51136|376244|718644|1159524|156460|316268|499|84|0|0|32532|39876|3|4|610|956|22
+17:02:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|156452|0|33|914|51872|376244|718644|1159524|156452|316268|499|84|0|0|32592|40620|3|4|611|956|22
+17:03:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|156456|0|33|918|52632|376244|718644|1159524|156456|316268|499|84|0|0|32652|41380|3|4|613|959|22
+17:04:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|156456|0|33|917|53388|376244|718644|1159524|156456|316268|499|84|0|0|32712|42132|3|4|614|961|22
+17:05:29 CylanceSvc(1196)[46] Information: [ProcessStatistics] Stats|156456|0|33|914|54136|376244|718644|1159524|156456|316268|499|84|0|0|32772|42880|3|4|615|961|22
+17:06:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2489\g2mtranscoder.exe' is allowed by SafeList.
+17:06:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2491\g2mtranscoder.exe' is allowed by SafeList.
+17:06:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2492\g2mtranscoder.exe' is allowed by SafeList.
+17:06:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2539\g2mtranscoder.exe' is allowed by SafeList.
+17:06:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2489\G2MTranscoder.exe' is allowed by SafeList.
+17:06:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2491\G2MTranscoder.exe' is allowed by SafeList.
+17:06:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2492\G2MTranscoder.exe' is allowed by SafeList.
+17:06:17 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2539\G2MTranscoder.exe' is allowed by SafeList.
+17:06:18 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\users\lscaife\appdata\local\temp\citrixupdates\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+17:06:18 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\program files (x86)\citrix\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+17:06:18 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\1415\ImmersiveWindowsFinderDllWin8.dll' is allowed by SafeList.
+17:06:18 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\BigFix Enterprise\BES Client\__BESData\BES Support\qchain.exe' is allowed by SafeList.
+17:06:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|156484|1|33|922|57472|376244|718644|1159524|156484|316268|498|84|0|2|32832|43792|1073839|283|617|967|23
+17:07:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|156468|0|33|939|58220|376244|719412|1159524|156468|316268|499|85|0|0|32892|44540|9|4|618|969|23
+17:07:32 CylanceSvc(1196)[19] Information: Running the Updater (95 minute update interval, Re-run flag: 0)...
+17:07:32 CyUpdate(100)[1] Information: CyUpdate starting, PID = 100...
+17:08:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|156688|0|32|968|59620|376244|718388|1159524|156688|316268|499|84|0|0|32952|45728|749|8|619|969|23
+17:09:29 CylanceSvc(1196)[35] Information: [ProcessStatistics] Stats|156632|0|30|983|60576|376244|716340|1159524|156632|316268|498|83|0|0|33012|46680|462|5|621|972|23
+17:10:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|156688|0|32|998|61360|376244|718388|1159524|156688|316268|498|84|0|0|33072|47616|83|5|621|974|23
+17:11:29 CylanceSvc(1196)[35] Information: [ProcessStatistics] Stats|156744|0|32|998|62288|376244|718388|1159524|156744|316268|498|84|0|0|33132|48352|3|4|623|976|23
+17:12:29 CylanceSvc(1196)[35] Information: [ProcessStatistics] Stats|156788|0|33|1025|64584|376244|719412|1159524|156788|316268|498|84|0|0|33192|49252|84|11|624|977|23
+17:13:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|156792|0|33|1044|65348|376244|719412|1159524|156792|316268|499|84|0|0|33252|50284|83|6|624|979|23
+17:14:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|156920|0|33|928|66352|376244|719412|1159524|156920|316268|499|84|0|0|33312|51016|3|4|626|981|23
+17:15:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|156884|0|32|920|67072|376244|718388|1159524|156884|316268|499|84|0|0|33372|51736|3|4|627|982|23
+17:16:29 CylanceSvc(1196)[35] Information: [ProcessStatistics] Stats|156920|0|33|970|67860|376244|719412|1159524|156920|316268|500|84|0|0|33432|52512|97|4|628|984|23
+17:17:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|156892|0|32|970|68588|376244|718388|1159524|156892|316268|499|84|0|0|33492|53244|83|5|629|986|23
+17:18:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|156852|0|31|973|69304|376244|717364|1159524|156852|316268|499|84|0|0|33552|53956|61|4|630|987|23
+17:19:29 CylanceSvc(1196)[35] Information: [ProcessStatistics] Stats|156876|0|32|963|70064|376244|718388|1159524|156876|316268|499|84|0|0|33612|54720|3|4|631|989|23
+17:20:29 CylanceSvc(1196)[35] Information: [ProcessStatistics] Stats|156876|0|32|958|70816|376244|718388|1159524|156876|316268|499|84|0|0|33672|55472|3|4|633|991|23
+17:21:29 CylanceSvc(1196)[35] Information: [ProcessStatistics] Stats|156876|0|32|956|71568|376244|718388|1159524|156876|316268|499|84|0|0|33732|56224|3|4|634|992|23
+17:22:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|156876|0|32|964|72316|376244|718388|1159524|156876|316268|499|84|0|0|33792|56972|3|4|635|994|23
+17:23:29 CylanceSvc(1196)[35] Information: [ProcessStatistics] Stats|156888|0|32|973|73076|376244|718388|1159524|156888|316268|499|84|0|0|33852|57728|83|4|636|996|23
+17:24:29 CylanceSvc(1196)[35] Information: [ProcessStatistics] Stats|156888|0|32|977|73824|376244|718388|1159524|156888|316268|499|84|0|0|33912|58480|3|4|637|997|23
+17:25:29 CylanceSvc(1196)[35] Information: [ProcessStatistics] Stats|156852|0|31|974|74544|376244|717364|1159524|156852|316268|499|83|0|0|33972|59200|3|4|639|999|23
+17:26:29 CylanceSvc(1196)[35] Information: [ProcessStatistics] Stats|156924|0|33|984|75336|376244|719412|1159524|156924|316268|499|84|0|0|34032|59992|9|4|639|1001|23
+17:27:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|156888|0|32|948|76108|376244|718388|1159524|156888|316268|500|84|0|0|34092|60752|82|5|640|1002|23
+17:28:29 CylanceSvc(1196)[35] Information: [ProcessStatistics] Stats|156864|0|31|958|76836|376244|717364|1159524|156864|316268|499|83|0|0|34152|61488|83|4|642|1004|23
+17:29:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|156888|0|32|946|77596|376244|718388|1159524|156888|316268|499|84|0|0|34212|62140|3|3|642|1006|23
+17:30:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|157384|0|32|933|78220|376244|718388|1159524|157384|316268|499|84|0|0|34272|62412|3|2|644|1007|23
+17:31:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|158380|0|31|938|78472|376244|717364|1159524|158380|316268|499|83|0|0|34332|62664|3|2|645|1009|23
+17:32:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|159424|0|32|940|78760|376244|718388|1159524|159424|316268|499|84|0|0|34392|62952|3|2|646|1011|23
+17:33:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|160440|0|32|938|79028|376244|718388|1159524|160440|316268|499|84|0|0|34452|63220|3|2|647|1014|23
+17:34:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|161432|0|31|937|79296|376244|717364|1159524|161432|316268|499|83|0|0|34512|63472|3|2|649|1014|23
+17:35:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|162476|0|32|939|79580|376244|718388|1159524|162476|316268|499|84|0|0|34572|63756|3|2|649|1016|23
+17:36:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|163492|0|32|938|79848|376244|718388|1159524|163492|316268|499|84|0|0|34632|64024|3|2|651|1019|23
+17:37:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|164516|0|32|978|80148|376244|718388|1159524|164516|316268|500|84|0|0|34692|64308|86|3|652|1019|23
+17:38:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|165516|0|31|984|80412|376244|717364|1159524|165516|316268|499|83|0|0|34752|64568|83|2|652|1021|23
+17:39:29 CylanceSvc(1196)[35] Information: [ProcessStatistics] Stats|166556|0|32|1009|80692|376244|718388|1159524|166556|316268|499|84|0|0|34812|64864|87|3|654|1024|23
+17:40:29 CylanceSvc(1196)[35] Information: [ProcessStatistics] Stats|167632|0|33|951|81040|376244|719412|1159524|167632|316268|500|84|0|0|34872|30452|86|2|655|1024|23
+17:41:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|125000|0|33|919|46352|376244|718644|1159524|125000|316268|500|84|0|0|34932|30400|3|1|656|1026|23
+17:42:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|125100|0|35|939|46412|376244|720692|1159524|125100|316268|499|84|0|0|34992|30460|83|1|657|1029|23
+17:43:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|125000|0|33|939|46352|376244|718644|1159524|125000|316268|499|84|0|0|35052|30400|3|1|658|1029|23
+17:44:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|124976|0|32|955|46336|376244|717620|1159524|124976|316268|499|84|0|0|35112|30384|83|1|660|1032|23
+17:45:29 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|125000|0|33|980|38436|376244|718644|1159524|125000|316268|500|84|0|0|35172|30400|86|36|661|1033|23
+17:46:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|124996|0|33|1014|39036|376244|718644|1159524|124996|316268|500|84|0|0|35232|30396|248|3|662|1034|23
+17:47:29 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|125016|0|33|1035|39116|376244|718644|1159524|125016|316268|500|84|0|0|35292|30404|84|1|663|1037|23
+17:48:30 CylanceSvc(1196)[35] Information: [ProcessStatistics] Stats|125000|0|33|1065|39176|376244|718644|1159524|125000|316268|500|84|0|0|35352|30440|166|2|664|1038|23
+17:49:30 CylanceSvc(1196)[36] Information: [ProcessStatistics] Stats|125796|0|34|1049|39548|376244|719668|1159524|125796|316268|499|84|0|0|35412|30732|84|3|665|1039|23
+17:50:30 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|126908|0|34|1019|39964|376244|719668|1159524|126908|316268|500|84|0|0|35472|31120|165|3|667|1041|23
+17:51:30 CylanceSvc(1196)[35] Information: [ProcessStatistics] Stats|127856|0|33|949|38088|376244|718644|1159524|127856|316268|500|84|0|0|35532|29208|84|3|667|1043|23
+17:52:30 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|128860|0|33|948|38444|376244|718644|1159524|128860|316268|498|84|0|0|35593|29496|83|3|668|1044|23
+17:53:30 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|129956|0|34|978|38796|376244|719668|1159524|129956|316268|499|84|0|0|35653|29816|83|3|670|1046|23
+17:54:30 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|130908|0|33|957|39036|376244|718644|1159524|130908|316268|499|84|0|0|35713|30056|3|2|670|1048|23
+17:55:30 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|131980|0|33|951|40284|376244|719412|1159524|131980|316268|499|84|0|0|35773|30364|3|6|672|1051|23
+17:56:30 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|132920|0|31|949|40516|376244|717364|1159524|132920|316268|499|83|0|0|35833|30592|3|2|673|1051|23
+17:57:30 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|133936|0|32|986|41456|376244|718388|1159524|133936|316268|500|84|0|0|35893|30864|87|5|674|1053|23
+17:58:30 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|134956|0|32|1002|41768|376244|718388|1159524|134956|316268|499|84|0|0|35953|31144|83|3|675|1056|23
+17:59:30 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|135972|0|32|998|42036|376244|718388|1159524|135972|316268|499|84|0|0|36013|31412|3|2|677|1056|23
+18:00:30 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|136956|0|31|988|42276|376244|717364|1159524|136956|316268|499|83|0|0|36073|31652|3|2|677|1058|23
+18:01:30 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|138000|0|32|994|42612|376244|718388|1159524|138000|316268|499|84|0|0|36133|31944|3|2|679|1061|23
+18:02:30 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|138992|0|31|993|42864|376244|717364|1159524|138992|316268|499|83|0|0|36193|32196|3|2|680|1061|23
+18:03:30 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|140036|0|32|991|43176|376244|718388|1159524|140036|316268|499|84|0|0|36253|32484|3|2|680|1063|23
+18:04:30 CylanceSvc(1196)[19] Information: [ProcessStatistics] Stats|141048|0|32|995|43440|376244|718388|1159524|141048|316268|499|84|0|0|36313|32752|3|2|682|1066|23
+18:05:30 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|142076|0|32|951|43740|376244|718388|1159524|142076|316268|500|84|0|0|36373|33040|86|2|683|1066|23
+18:06:21 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2489\g2mtranscoder.exe' is allowed by SafeList.
+18:06:21 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2491\g2mtranscoder.exe' is allowed by SafeList.
+18:06:21 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2492\g2mtranscoder.exe' is allowed by SafeList.
+18:06:21 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2539\g2mtranscoder.exe' is allowed by SafeList.
+18:06:21 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2489\G2MTranscoder.exe' is allowed by SafeList.
+18:06:21 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2491\G2MTranscoder.exe' is allowed by SafeList.
+18:06:21 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2492\G2MTranscoder.exe' is allowed by SafeList.
+18:06:21 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2539\G2MTranscoder.exe' is allowed by SafeList.
+18:06:21 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\users\lscaife\appdata\local\temp\citrixupdates\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+18:06:21 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\program files (x86)\citrix\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+18:06:21 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\1415\ImmersiveWindowsFinderDllWin8.dll' is allowed by SafeList.
+18:06:21 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\BigFix Enterprise\BES Client\__BESData\BES Support\qchain.exe' is allowed by SafeList.
+18:06:30 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|143196|1|34|959|40004|376244|720436|1159524|143196|316268|500|85|1|2|36433|26864|1083287|287|686|1072|24
+18:07:30 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|144168|0|33|976|40280|376244|719412|1159524|144168|316268|500|85|0|0|36493|27136|62|3|686|1074|24
+18:08:30 CylanceSvc(1196)[15] Information: [ProcessStatistics] Stats|145132|0|32|969|40632|376244|718388|1159524|145132|316268|498|83|0|0|36553|27440|3|3|687|1075|24
+18:09:30 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|146140|0|32|994|41256|376244|718388|1159524|146140|316268|499|83|0|0|36613|27788|84|4|689|1077|24
+18:10:30 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|147108|0|31|1002|41556|376244|717364|1159524|147108|316268|498|83|0|0|36673|28040|83|3|690|1079|24
+18:11:30 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|148168|0|32|1028|41920|376244|718388|1159524|148168|316268|498|83|0|0|36733|28364|83|3|691|1080|24
+18:12:30 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|149356|0|33|1042|44360|376244|719412|1159524|149356|316268|498|84|0|0|36793|29332|84|11|692|1082|24
+18:13:30 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|150376|0|33|1061|44716|376244|719412|1159524|150376|316268|498|84|0|0|36853|29672|163|3|693|1084|24
+18:14:30 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|151368|0|32|1059|44972|376244|718388|1159524|151368|316268|498|83|0|0|36913|29928|3|2|694|1085|24
+18:15:30 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|152360|0|31|1084|45228|376244|717364|1159524|152360|316268|499|83|0|0|36973|30180|83|2|696|1087|24
+18:16:30 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|153420|0|33|975|45588|376244|719412|1159524|153420|316268|499|84|0|0|37033|30540|93|3|696|1089|24
+18:17:30 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|154436|0|33|977|45860|376244|719412|1159524|154436|316268|499|84|0|0|37093|30816|3|2|697|1089|24
+18:18:30 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|155452|0|33|1038|46144|376244|718644|1159524|155452|316268|500|84|0|0|37153|31096|250|3|699|1092|24
+18:19:30 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|156496|0|34|1037|46444|376244|719668|1159524|156496|316268|500|84|0|0|37213|31436|168|3|699|1094|24
+18:20:30 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|157356|0|33|926|48480|376244|718644|1159524|157356|316268|499|83|0|0|37273|32892|83|10|701|1096|24
+18:21:30 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|157328|0|32|924|48660|376244|717620|1159524|157328|316268|499|83|0|0|37333|33052|3|1|702|1097|24
+18:22:30 CylanceSvc(1196)[41] Information: [ProcessStatistics] Stats|157344|0|33|916|48800|376244|718644|1159524|157344|316268|499|83|0|0|37393|33236|3|2|703|1099|24
+18:23:30 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|157356|0|33|947|49092|376244|718644|1159524|157356|316268|499|83|0|0|37453|34004|83|5|704|1101|24
+18:24:30 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|157320|0|32|966|50000|376244|717620|1159524|157320|316268|498|83|0|0|37513|34908|87|5|705|1102|24
+18:25:30 CylanceSvc(1196)[9] Information: [ProcessStatistics] Stats|157432|0|35|1016|51028|376244|720692|1159524|157432|316268|498|84|0|0|37573|35936|276|6|706|1104|24
+18:26:30 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|157296|0|32|1019|51896|376244|717620|1159524|157296|316268|497|83|0|0|37633|36824|83|5|708|1106|24
+18:27:05 CylanceSvc(1196)[42] Information: [Venue commands] received command: update SafeList
+18:27:30 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|157276|0|31|1040|52880|376244|716596|1159524|157276|316268|498|83|0|0|37693|37800|86|5|709|1113|24
+18:28:30 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|157296|0|32|1060|53824|376244|717620|1159524|157296|316268|498|83|0|0|37753|38556|147|5|710|1114|24
+18:29:30 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|158748|0|34|956|62236|376244|720556|1159524|158748|316268|500|86|0|1|37813|43328|144947|119|712|1120|25
+18:30:30 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|158724|0|33|958|62964|376244|719532|1159524|158724|316268|499|86|0|0|37873|44056|164|5|713|1121|25
+18:31:30 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|157604|0|33|998|62872|376244|719532|1159524|157604|316268|499|85|0|0|37933|43848|385|5|715|1123|25
+18:32:30 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|157564|0|32|1025|63596|376244|718508|1159524|157564|316268|499|85|0|0|37993|44572|304|5|715|1125|25
+18:33:30 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|157804|0|31|1058|64732|376244|718252|1159524|157804|316268|499|84|0|0|38053|45672|337|6|717|1126|25
+18:34:30 CylanceSvc(1196)[10] Information: [ProcessStatistics] Stats|157792|0|31|912|65376|376244|718252|1159524|157792|316268|499|84|0|0|38113|46416|8968|5|718|1128|25
+18:35:30 CylanceSvc(1196)[42] Information: [ProcessStatistics] Stats|157832|0|32|937|66144|376244|719276|1159524|157832|316268|499|85|0|0|38173|47192|144|5|719|1130|25
+18:36:30 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|157872|0|33|986|66964|376244|720300|1159524|157872|316268|498|85|0|0|38233|48016|306|5|720|1131|25
+18:37:30 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|159644|0|35|1004|64452|376244|722348|1159524|159644|316268|499|85|0|0|38293|46060|187636|37|721|1133|25
+18:38:30 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|159616|0|34|1024|65192|376244|721324|1159524|159616|316268|499|85|0|0|38353|46820|61056|13|722|1135|25
+18:39:02 CyUpdate(2212)[1] Information: CyUpdate starting, PID = 2212...
+18:39:31 CylanceSvc(1196)[29] Information: [ProcessStatistics] Stats|125884|0|35|912|49080|376244|721580|1159524|125884|316268|499|85|0|0|38414|30572|9114|21|723|1136|25
+18:40:31 CylanceSvc(1196)[29] Information: [ProcessStatistics] Stats|125812|0|34|938|49384|376244|720556|1159524|125812|316268|500|85|0|0|38474|31320|235|5|725|1138|25
+18:41:31 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|125760|0|33|929|47800|376244|719532|1159524|125760|316268|498|84|0|0|38534|31212|3|2|725|1140|25
+18:42:31 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|125760|0|32|970|43244|376244|719276|1159524|125760|316268|501|85|0|0|38594|29724|331|2|727|1142|25
+18:42:32 CylanceSvc(1196)[29] Information: Running the Updater (94 minute update interval, Re-run flag: 0)...
+18:42:33 CyUpdate(5288)[1] Information: CyUpdate starting, PID = 5288...
+18:43:31 CylanceSvc(1196)[29] Information: [ProcessStatistics] Stats|125764|0|33|976|25700|376244|719532|1159524|125764|316268|501|84|0|0|38654|15872|694|4|728|1143|25
+18:44:31 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|126780|0|33|998|26492|376244|719532|1159524|126780|316268|501|84|0|0|38714|17080|541|8|729|1145|25
+18:45:31 CylanceSvc(1196)[31] Information: [ProcessStatistics] Stats|126760|0|32|987|25600|376244|718508|1159524|126760|316268|501|84|0|0|38774|16548|124|6|730|1147|25
+18:46:31 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|126792|0|33|994|26208|376244|719532|1159524|126792|316268|501|84|0|0|38834|16968|84|4|731|1148|25
+18:47:03 CylanceSvc(1196)[15] Information: [Cylance.Host.MemDef.MemDef] Out of process write PE received => 5216, 4390912, True, 4096, System.Byte[]
+18:47:04 CylanceSvc(1196)[15] Information: [Cylance.Host.MemDef.MemDef] Process Action Blocked
+18:47:04 CylanceSvc(1196)[15] Information: [Cylance.Host.MemDef.MemDef] Out of process write PE received => 5096, 4325376, True, 4096, System.Byte[]
+18:47:05 CylanceSvc(1196)[15] Information: [Cylance.Host.MemDef.MemDef] Process Action Blocked
+18:47:31 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|126888|0|36|948|21156|376244|722604|1159524|126888|316268|503|86|0|0|38894|18068|275|40|732|1150|25
+18:48:31 CylanceSvc(1196)[31] Information: [ProcessStatistics] Stats|126896|0|36|957|21032|376244|722604|1159524|126896|316268|502|85|0|0|38954|14892|42|24|734|1152|25
+18:49:17 CylanceSvc(1196)[39] Information: [Cylance.Host.MemDef.MemDef] GetThreatProcessList - returning 2 processed violations
+18:49:31 CylanceSvc(1196)[33] Information: [ProcessStatistics] Stats|127360|0|34|971|30768|376244|721068|1159524|127360|316268|501|86|0|0|39014|19060|6480|55|736|1153|25
+18:50:31 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|127420|0|36|981|32448|376244|723116|1159524|127420|316268|501|86|0|0|39074|20452|167|6|736|1155|25
+18:51:31 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|126880|0|35|980|33228|376244|721580|1159524|126880|316268|502|85|0|0|39134|21164|164|7|738|1158|25
+18:52:31 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|126780|0|32|949|33552|376244|718508|1159524|126780|316268|501|84|0|0|39194|21532|327|6|739|1158|25
+18:53:31 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|126804|0|33|954|34592|376244|719532|1159524|126804|316268|501|84|0|0|39254|22568|3|5|741|1161|25
+18:54:31 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|126804|0|33|967|35628|376244|719532|1159524|126804|316268|502|85|0|0|39314|23616|166|4|741|1163|25
+18:55:31 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|127208|0|34|963|36476|376244|720556|1159524|127208|316268|502|85|0|0|39374|23916|168|2|742|1163|25
+18:56:31 CylanceSvc(1196)[48] Information: [ProcessStatistics] Stats|128204|0|33|966|36724|376244|719532|1159524|128204|316268|502|85|0|0|39434|24168|3|2|744|1166|25
+18:57:31 CylanceSvc(1196)[5] Information: [ProcessStatistics] Stats|128616|1|36|943|45032|376244|722604|1159524|128616|316268|502|85|1|2|39494|31328|1011159|279|745|1167|25
+18:58:31 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|128596|0|36|939|45780|376244|722604|1159524|128596|316268|500|85|0|0|39554|31596|84|1|746|1168|25
+18:59:31 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|128432|0|32|970|45692|376244|719276|1159524|128432|316268|500|84|0|0|39614|31508|145|1|747|1170|25
+19:00:31 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|128476|0|33|984|45756|376244|720300|1159524|128476|316268|500|85|0|0|39674|31572|318|2|748|1172|25
+19:01:31 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|128564|0|36|1029|45900|376244|722604|1159524|128564|316268|499|85|0|0|39734|31636|260|2|749|1173|25
+19:02:31 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|128408|0|31|992|45900|376244|718252|1159524|128408|316268|498|84|0|0|39794|31608|325|2|751|1175|25
+19:03:31 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|128400|0|31|1032|45908|376244|718252|1159524|128400|316268|498|84|0|0|39854|31604|254|1|751|1177|25
+19:04:31 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|128420|0|32|1035|45920|376244|718508|1159524|128420|316268|498|84|0|0|39914|31616|3|1|753|1180|25
+19:05:31 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|128816|0|32|1034|46100|376244|719276|1159524|128816|316268|498|84|0|0|39974|31872|4|3|754|1180|25
+19:06:25 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2489\g2mtranscoder.exe' is allowed by SafeList.
+19:06:25 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2491\g2mtranscoder.exe' is allowed by SafeList.
+19:06:25 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2492\g2mtranscoder.exe' is allowed by SafeList.
+19:06:25 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2539\g2mtranscoder.exe' is allowed by SafeList.
+19:06:25 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2489\G2MTranscoder.exe' is allowed by SafeList.
+19:06:25 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2491\G2MTranscoder.exe' is allowed by SafeList.
+19:06:25 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2492\G2MTranscoder.exe' is allowed by SafeList.
+19:06:25 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2539\G2MTranscoder.exe' is allowed by SafeList.
+19:06:25 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\users\lscaife\appdata\local\temp\citrixupdates\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+19:06:25 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\program files (x86)\citrix\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+19:06:25 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\1415\ImmersiveWindowsFinderDllWin8.dll' is allowed by SafeList.
+19:06:25 CylanceSvc(1196)[23] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\BigFix Enterprise\BES Client\__BESData\BES Support\qchain.exe' is allowed by SafeList.
+19:06:31 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|128236|1|34|975|47832|376244|720556|1159524|128236|316268|499|86|0|2|40034|31768|1075380|283|756|1186|26
+19:07:31 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|129180|0|32|998|46496|376244|719276|1159524|129180|316268|498|85|0|0|40094|31624|297|3|757|1188|26
+19:08:31 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|130136|0|30|1011|46820|376244|717228|1159524|130136|316268|497|84|0|0|40154|31888|163|3|758|1189|26
+19:09:31 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|131180|0|31|1013|47096|376244|718252|1159524|131180|316268|497|84|0|0|40214|32164|3|2|759|1191|26
+19:10:31 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|132204|0|31|1001|47368|376244|718252|1159524|132204|316268|497|84|0|0|40274|32436|3|2|760|1193|26
+19:11:31 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|133308|0|34|1016|49224|376244|720556|1159524|133308|316268|497|84|0|0|40334|33100|5|9|762|1194|26
+19:12:32 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|134420|0|34|1041|49668|376244|720556|1159524|134420|316268|497|85|0|0|40394|33492|82|3|762|1196|26
+19:13:32 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|135424|0|33|993|49980|376244|719532|1159524|135424|316268|497|84|0|0|40454|33800|83|2|764|1198|26
+19:14:32 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|136500|0|34|1019|50280|376244|720556|1159524|136500|316268|497|85|0|0|40515|34096|84|2|765|1199|26
+19:15:32 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|137428|0|32|997|50500|376244|718508|1159524|137428|316268|497|84|0|0|40575|34316|3|2|767|1201|26
+19:16:32 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|138476|0|33|1020|50816|376244|719532|1159524|138476|316268|497|84|0|0|40635|34588|172|3|767|1203|26
+19:17:32 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|139428|0|31|1021|51048|376244|717484|1159524|139428|316268|497|84|0|0|40695|34812|3|2|768|1204|26
+19:18:32 CylanceSvc(1196)[24] Information: [ProcessStatistics] Stats|140520|0|33|1054|51360|376244|719532|1159524|140520|316268|498|84|0|0|40755|35116|75|2|770|1206|26
+19:19:32 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|141536|0|33|1037|51620|376244|719532|1159524|141536|316268|498|84|0|0|40815|35372|3|2|770|1208|26
+19:20:32 CylanceSvc(1196)[24] Information: [ProcessStatistics] Stats|142552|0|33|988|51916|376244|719532|1159524|142552|316268|498|84|0|0|40875|35660|3|2|771|1209|26
+19:21:32 CylanceSvc(1196)[24] Information: [ProcessStatistics] Stats|143568|0|33|996|52180|376244|719532|1159524|143568|316268|498|84|0|0|40935|35924|3|2|773|1211|26
+19:22:32 CylanceSvc(1196)[39] Information: [ProcessStatistics] Stats|144584|0|33|970|52456|376244|719532|1159524|144584|316268|498|84|0|0|40995|36184|3|2|774|1213|26
+19:23:32 CylanceSvc(1196)[24] Information: [ProcessStatistics] Stats|145612|0|33|1004|52732|376244|719532|1159524|145612|316268|498|84|0|0|41055|36460|83|2|775|1213|26
+19:24:32 CylanceSvc(1196)[24] Information: [ProcessStatistics] Stats|146608|0|32|1000|52984|376244|718508|1159524|146608|316268|498|84|0|0|41115|36712|3|2|776|1216|26
+19:25:32 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|147640|0|33|981|53252|376244|719532|1159524|147640|316268|498|84|0|0|41175|36980|3|2|777|1218|26
+19:26:32 CylanceSvc(1196)[24] Information: [ProcessStatistics] Stats|148656|0|33|981|53528|376244|719532|1159524|148656|316268|498|84|0|0|41235|37248|3|2|779|1220|26
+19:27:32 CylanceSvc(1196)[24] Information: [ProcessStatistics] Stats|149652|0|32|985|53772|376244|718508|1159524|149652|316268|498|84|0|0|41295|37492|3|2|780|1221|26
+19:28:32 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|150668|0|32|981|54028|376244|719276|1159524|150668|316268|498|84|0|0|41355|37748|3|2|780|1223|26
+19:29:32 CylanceSvc(1196)[24] Information: [ProcessStatistics] Stats|151684|0|32|980|54288|376244|719276|1159524|151684|316268|498|84|0|0|41415|38008|3|2|782|1225|26
+19:30:32 CylanceSvc(1196)[24] Information: [ProcessStatistics] Stats|152676|0|31|984|54524|376244|718252|1159524|152676|316268|498|84|0|0|41475|38244|3|2|783|1226|26
+19:31:32 CylanceSvc(1196)[30] Information: [ProcessStatistics] Stats|153720|0|32|981|54888|376244|719276|1159524|153720|316268|498|84|0|0|41535|38604|3|2|783|1228|26
+19:32:06 CylanceSvc(1196)[1] Information: Stopping service
+19:32:06 CylanceSvc(1196)[1] Information: Stopping module Analysis
+19:32:07 CylanceSvc(1196)[1] Information: Module Analysis stopped
+19:32:07 CylanceSvc(1196)[1] Information: Stopping module CommandControlUi
+19:32:07 CylanceSvc(1196)[1] Information: Module CommandControlUi stopped
+19:32:07 CylanceSvc(1196)[1] Information: Stopping module Venue
+19:32:07 CylanceSvc(1196)[1] Information: Module Venue stopped
+19:32:07 CylanceSvc(1196)[1] Information: Stopping module WindowsEventLogger
+19:32:07 CylanceSvc(1196)[1] Information: Module WindowsEventLogger stopped
+21:13:25 CylanceSvc(1940)[6] Information: Initializing...
+21:13:30 CylanceSvc(1940)[4] Information: [ProcessStatistics] Stats|PrivateMemorySize64(K)|CpuUser%|Threads|Handles|WorkingSet64(K)|PeakWorkingSet64(K)|VirtualMemorySize64(K)|PeakVirtualMemorySize64(K)|PagedMemorySize64(K)|PeakPagedMemorySize64(K)|PagedSystemMemorySize64(K)|NonpagedSystemMemorySize64(K)|CpuPriv%|CpuTotl%|ElapsedTime|WorkingSetPrivateMemory(Kb)|IoDataBytesPerSec|PageFaultsPerSec
+21:13:30 CylanceSvc(1940)[4] Information: [ProcessStatistics] Stats|24672|100|13|342|22760|23644|567372|608028|24672|25800|295|30|0|100|11|8380|433905|18721
+21:13:30 CylanceSvc(1940)[6] Information: Database location: C:\ProgramData\Cylance\Desktop
+21:13:36 CylanceSvc(1940)[6] Information: Starting service
+21:13:36 CylanceSvc(1940)[6] Information: Loaded Controller module ver. 1.1.1260.33
+21:13:36 CylanceSvc(1940)[6] Information: Verifying assembly signatures
+21:13:38 CylanceSvc(1940)[6] Information: Loaded module type Analysis ver. 1.1.1260.33
+21:13:38 CylanceSvc(1940)[6] Information: Loaded module type CommandControlUi ver. 1.1.1260.33
+21:13:38 CylanceSvc(1940)[6] Information: Venue command polling interval set to occur every 53 seconds.
+21:13:38 CylanceSvc(1940)[6] Information: Loaded module type Venue ver. 1.1.1260.35
+21:13:39 CylanceSvc(1940)[6] Information: Loaded module type WindowsEventLogger ver. 1.1.1260.33
+21:13:42 CylanceSvc(1940)[6] Information: Local Infinity version: 130532070597673745, old version 130532070597673745
+21:13:48 CylanceSvc(1940)[17] Warning: [Cylance.Host.MemDef.MemDef] Update of 1 exclusion(s) succeeded
+21:13:48 CylanceSvc(1940)[17] Information: [Cylance.Host.MemDef.MemDef] StartMemDef called
+21:13:50 CylanceSvc(1940)[4] Information: [DeviceFingerPrint] ReadWmiClassProperties: class="Win32_OperatingSystem" - property="PortableOperatingSystem" skipped; ex: Not found 
+21:13:50 CylanceSvc(1940)[4] Information: [DeviceFingerPrint] fingerprintFields: [OS]MachineGuid:2b13d7da-3899-4a88-bc81-32952fea9997[Win32_BIOS]SerialNumber:VMware-56 4d 4f e1 66 eb f1 ca-52 c0 6c 65 fb 14 8f 74|IdentificationCode:|Manufacturer:Phoenix Technologies LTD[Win32_BaseBoard]SerialNumber:None|Version:None|Manufacturer:Intel Corporation|Product:440BX Desktop Reference Platform|Model:[Win32_Processor]UniqueId:|ProcessorId:0FABFBFF000306A9|ProcessorType:3|Revision:14857|Name:Intel(R) Core(TM) i7-3667U CPU @ 2.00GHz|Manufacturer:GenuineIntel[Win32_DiskDrive]SerialNumber:|Signature:3322981483|Model:VMware, VMware Virtual S SCSI Disk Device|TotalHeads:255[Win32_OperatingSystem]SerialNumber:00392-918-5000002-85823|PortableOperatingSystem:|OperatingSystemSKU:|OSArchitecture:|OSType:|InstallDate:
+21:13:50 CylanceSvc(1940)[4] Information: [DeviceFingerPrint] fingerprint :      a46d1460-e559-4a6b-9240-2cfd5aba0c03
+21:13:52 CylanceSvc(1940)[4] Information: [VenueCommandManager] Venue network connection state changed; new state=Connected
+21:13:53 CylanceSvc(1940)[17] Information: [Cylance.Host.FileSystem.FileSystem] SetPolicy(), full_disc_scan=AlwaysRun: prev=Stopped, watch_for_new_files=True: prev=False
+21:13:55 CylanceSvc(1940)[17] Information: [Cylance.Host.Analyzer.FileProcessor] Infinity network connection state changed; new state=Connected
+21:14:16 CylanceUI(3720)[1] Information: Initializing...
+21:14:30 CylanceSvc(1940)[21] Information: [ProcessStatistics] Stats|PrivateMemorySize64(K)|CpuUser%|Threads|Handles|WorkingSet64(K)|PeakWorkingSet64(K)|VirtualMemorySize64(K)|PeakVirtualMemorySize64(K)|PagedMemorySize64(K)|PeakPagedMemorySize64(K)|PagedSystemMemorySize64(K)|NonpagedSystemMemorySize64(K)|CpuPriv%|CpuTotl%|ElapsedTime|WorkingSetPrivateMemory(Kb)|IoDataBytesPerSec|PageFaultsPerSec|BytesSent(Kb)|BytesReceived(Kb)|ConnectionsEstablished
+21:14:30 CylanceSvc(1940)[21] Information: [ProcessStatistics] Stats|119568|21|36|888|89492|376928|717604|1159524|119568|317068|493|86|7|28|71|51080|2492318|4290|7|18|6
+21:14:38 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2489\g2mtranscoder.exe' is allowed by SafeList.
+21:14:38 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2491\g2mtranscoder.exe' is allowed by SafeList.
+21:14:38 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2492\g2mtranscoder.exe' is allowed by SafeList.
+21:14:38 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2539\g2mtranscoder.exe' is allowed by SafeList.
+21:14:38 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2489\G2MTranscoder.exe' is allowed by SafeList.
+21:14:38 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2491\G2MTranscoder.exe' is allowed by SafeList.
+21:14:38 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2492\G2MTranscoder.exe' is allowed by SafeList.
+21:14:38 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2539\G2MTranscoder.exe' is allowed by SafeList.
+21:14:38 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\users\lscaife\appdata\local\temp\citrixupdates\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+21:14:38 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\program files (x86)\citrix\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+21:14:38 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\1415\ImmersiveWindowsFinderDllWin8.dll' is allowed by SafeList.
+21:14:38 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\BigFix Enterprise\BES Client\__BESData\BES Support\qchain.exe' is allowed by SafeList.
+21:15:30 CylanceSvc(1940)[4] Information: [ProcessStatistics] Stats|119852|1|35|869|91560|376928|716972|1159524|119852|317068|492|86|0|1|131|52732|1081237|161|9|20|6
+21:16:30 CylanceSvc(1940)[4] Information: [ProcessStatistics] Stats|119592|0|36|917|92528|376928|718380|1159524|119592|317068|493|85|0|0|191|52476|19776|18|10|23|6
+21:17:30 CylanceSvc(1940)[4] Information: [ProcessStatistics] Stats|119560|0|36|890|65552|376928|717612|1159524|119560|317068|494|85|0|0|251|34984|69|1|11|24|6
+21:18:30 CylanceSvc(1940)[4] Information: [ProcessStatistics] Stats|119516|0|35|899|65544|376928|716588|1159524|119516|317068|493|85|0|0|311|34968|220|2|12|25|6
+21:19:30 CylanceSvc(1940)[4] Information: [ProcessStatistics] Stats|119544|0|33|926|66120|376928|714500|1159524|119544|317068|492|84|0|0|371|35324|85|4|12|27|6
+21:20:30 CylanceSvc(1940)[22] Information: [ProcessStatistics] Stats|120536|0|32|927|66432|376928|713476|1159524|120536|317068|492|84|0|0|431|35608|162|3|13|27|6
+21:21:30 CylanceSvc(1940)[22] Information: [ProcessStatistics] Stats|121656|0|34|949|66756|376928|715524|1159524|121656|317068|491|84|0|0|491|35928|82|2|14|29|6
+21:22:30 CylanceSvc(1940)[4] Information: [ProcessStatistics] Stats|122612|0|33|956|66996|376928|714500|1159524|122612|317068|490|84|0|0|551|36156|82|2|15|30|6
+21:23:30 CylanceSvc(1940)[29] Information: [ProcessStatistics] Stats|123692|0|34|998|67304|376928|716292|1159524|123692|317068|491|84|0|0|611|36456|148|3|15|32|6
+21:24:30 CylanceSvc(1940)[22] Information: [ProcessStatistics] Stats|124604|0|31|983|67500|376928|713220|1159524|124604|317068|491|83|0|0|671|36648|3|2|17|34|6
+21:25:30 CylanceSvc(1940)[22] Information: [ProcessStatistics] Stats|125628|0|32|964|67788|376928|714244|1159524|125628|317068|489|82|0|0|731|36936|3|2|18|35|6
+21:26:30 CylanceSvc(1940)[29] Information: [ProcessStatistics] Stats|126616|0|31|1012|68580|376928|713220|1159524|126616|317068|491|82|0|0|791|37208|90|5|18|37|6
+21:27:30 CylanceSvc(1940)[39] Information: [ProcessStatistics] Stats|127656|0|32|959|68920|376928|714244|1159524|127656|317068|489|83|0|0|851|37552|85|3|19|37|6
+21:28:30 CylanceSvc(1940)[22] Information: [ProcessStatistics] Stats|128684|0|32|898|69196|376928|714244|1159524|128684|317068|490|83|0|0|911|37812|171|3|20|39|6
+21:29:30 CylanceSvc(1940)[10] Information: [ProcessStatistics] Stats|130252|0|34|928|70068|376928|717060|1159524|130252|317068|488|84|0|0|971|38612|90|6|21|40|6
+21:30:30 CylanceSvc(1940)[35] Information: [ProcessStatistics] Stats|131516|0|34|921|53032|376928|715780|1159524|131516|317068|490|83|0|0|1031|29200|328|4|21|42|6
+21:31:30 CylanceSvc(1940)[34] Information: [ProcessStatistics] Stats|132484|0|33|937|53304|376928|714756|1159524|132484|317068|492|83|0|0|1091|29460|315|3|23|44|6
+21:32:30 CylanceSvc(1940)[35] Information: [ProcessStatistics] Stats|133584|0|34|957|53684|376928|716548|1159524|133584|317068|491|83|0|0|1151|29824|66|3|24|45|6
+21:33:30 CylanceSvc(1940)[23] Information: [ProcessStatistics] Stats|134516|0|32|978|53904|376928|714500|1159524|134516|317068|490|83|0|0|1211|30052|121|3|24|47|6
+21:34:30 CylanceSvc(1940)[34] Information: [ProcessStatistics] Stats|135524|0|32|1017|54180|376928|714500|1159524|135524|317068|490|83|0|0|1271|30340|166|3|25|47|6
+21:35:30 CylanceSvc(1940)[34] Information: [ProcessStatistics] Stats|136528|0|31|1021|54452|376928|713476|1159524|136528|317068|495|83|0|0|1331|30608|82|2|26|49|6
+21:36:30 CylanceSvc(1940)[34] Information: [ProcessStatistics] Stats|137544|0|31|962|46776|376928|713476|1159524|137544|317068|496|83|0|0|1391|27200|61|2|27|50|6
+21:37:30 CylanceSvc(1940)[43] Information: [ProcessStatistics] Stats|138528|0|31|911|41044|376928|713476|1159524|138528|317068|494|82|0|0|1451|25972|88|3|27|52|6
+21:38:30 CylanceSvc(1940)[44] Information: [ProcessStatistics] Stats|139604|0|32|939|41348|376928|714500|1159524|139604|317068|494|83|0|0|1511|26280|82|3|28|52|6
+21:39:30 CylanceSvc(1940)[19] Information: [ProcessStatistics] Stats|140716|0|34|970|41680|376928|716548|1159524|140716|317068|494|84|0|0|1571|26608|310|3|30|55|6
+21:40:30 CylanceSvc(1940)[43] Information: [ProcessStatistics] Stats|141716|0|34|1008|41928|376928|716548|1159524|141716|317068|494|83|0|0|1631|26848|142|3|31|57|6
+21:41:30 CylanceSvc(1940)[43] Information: [ProcessStatistics] Stats|144732|0|32|1044|48944|376928|715772|1159524|144732|317068|496|85|0|0|1691|30296|1698|62|32|57|6
+21:42:31 CylanceSvc(1940)[43] Information: [ProcessStatistics] Stats|145812|0|34|1068|49264|376928|717820|1159524|145812|317068|495|85|0|0|1751|30616|168|3|32|59|6
+21:43:31 CylanceSvc(1940)[48] Information: [ProcessStatistics] Stats|146284|0|33|954|49764|376928|716284|1159524|146284|317068|495|84|0|0|1812|30564|445|6|32|59|6
+21:43:52 CylanceSvc(1940)[31] Information: Command Poll Timer Busy. Will wait for next timer interval to poll for status.
+21:44:31 CylanceSvc(1940)[31] Information: [ProcessStatistics] Stats|147256|0|32|1031|50316|376928|715260|1159524|147256|317068|495|83|0|0|1871|30868|428|4|32|59|6
+21:44:45 CylanceSvc(1940)[48] Information: Command Poll Timer Busy. Will wait for next timer interval to poll for status.
+21:45:31 CylanceSvc(1940)[48] Information: [ProcessStatistics] Stats|148204|0|30|1035|50572|376928|713212|1159524|148204|317068|494|82|0|0|1931|31068|165|2|32|59|6
+21:45:38 CylanceSvc(1940)[48] Information: Command Poll Timer Busy. Will wait for next timer interval to poll for status.
+21:46:31 CylanceSvc(1940)[49] Information: [ProcessStatistics] Stats|149220|0|31|1027|50840|376928|713468|1159524|149220|317068|494|83|0|0|1991|31344|5|2|32|59|6
+21:46:31 CylanceSvc(1940)[49] Information: Command Poll Timer Busy. Will wait for next timer interval to poll for status.
+21:47:31 CylanceSvc(1940)[43] Information: [ProcessStatistics] Stats|150400|0|34|1049|52312|376928|716540|1159524|150400|317068|496|84|0|0|2051|32028|5|8|33|62|7
+21:48:31 CylanceSvc(1940)[49] Information: [ProcessStatistics] Stats|151372|0|33|991|52628|376928|715516|1159524|151372|317068|496|84|0|0|2112|32272|3|2|35|65|7
+21:49:31 CylanceSvc(1940)[42] Information: [ProcessStatistics] Stats|152392|0|33|990|52892|376928|715516|1159524|152392|317068|495|84|0|0|2172|32540|167|3|35|67|7
+21:50:31 CylanceSvc(1940)[42] Information: [ProcessStatistics] Stats|153456|0|34|996|53192|376928|716540|1159524|153456|317068|495|84|0|0|2232|32828|83|3|36|67|7
+21:51:31 CylanceSvc(1940)[49] Information: [ProcessStatistics] Stats|154420|0|33|969|53500|376928|715516|1159524|154420|317068|495|84|0|0|2292|33128|3|2|37|69|7
+21:52:31 CylanceSvc(1940)[42] Information: [ProcessStatistics] Stats|155476|0|34|967|53784|376928|716540|1159524|155476|317068|495|84|0|0|2352|33412|3|2|38|70|7
+21:53:31 CylanceSvc(1940)[49] Information: [ProcessStatistics] Stats|156412|0|32|936|53988|376928|714492|1159524|156412|317068|495|83|0|0|2412|33616|3|2|39|72|7
+21:54:31 CylanceSvc(1940)[15] Information: [ProcessStatistics] Stats|157460|0|33|946|54272|376928|715516|1159524|157460|317068|496|84|0|0|2472|33904|3|2|40|74|7
+21:55:31 CylanceSvc(1940)[15] Information: [ProcessStatistics] Stats|158456|0|32|950|54524|376928|714492|1159524|158456|317068|496|83|0|0|2532|34152|3|2|41|75|7
+21:56:31 CylanceSvc(1940)[30] Information: [ProcessStatistics] Stats|159508|0|33|955|54812|376928|715516|1159524|159508|317068|496|84|0|0|2592|34444|3|2|42|77|7
+21:57:31 CylanceSvc(1940)[30] Information: [ProcessStatistics] Stats|160524|0|33|952|55080|376928|715516|1159524|160524|317068|496|84|0|0|2652|34708|3|2|43|77|7
+21:58:31 CylanceSvc(1940)[49] Information: [ProcessStatistics] Stats|161488|0|32|945|55308|376928|714492|1159524|161488|317068|495|83|0|0|2712|34940|3|2|43|79|7
+21:59:31 CylanceSvc(1940)[49] Information: [ProcessStatistics] Stats|162496|0|32|946|55560|376928|714492|1159524|162496|317068|494|83|0|0|2772|35188|3|2|44|80|7
+22:00:31 CylanceSvc(1940)[49] Information: [ProcessStatistics] Stats|163548|0|32|952|55852|376928|715260|1159524|163548|317068|495|83|0|0|2832|35484|3|2|45|82|7
+22:01:31 CylanceSvc(1940)[49] Information: [ProcessStatistics] Stats|164544|0|31|995|56112|376928|714236|1159524|164544|317068|495|83|0|0|2892|35736|86|3|46|82|7
+22:02:31 CylanceSvc(1940)[50] Information: [ProcessStatistics] Stats|165524|0|31|997|56388|376928|714236|1159524|165524|317068|494|83|0|0|2952|36024|83|3|47|85|7
+22:03:31 CylanceSvc(1940)[49] Information: [ProcessStatistics] Stats|167164|0|33|1024|57280|376928|716028|1159524|167164|317068|495|85|0|0|3012|36852|623|5|48|87|7
+22:04:31 CylanceSvc(1940)[49] Information: [ProcessStatistics] Stats|120636|0|32|881|36032|376928|715260|1159524|120636|317068|496|84|0|0|3072|20808|252|10|49|87|7
+22:05:31 CylanceSvc(1940)[49] Information: [ProcessStatistics] Stats|120744|0|35|919|36572|376928|717564|1159524|120744|317068|496|84|0|0|3132|21688|141|5|49|89|7
+22:06:31 CylanceSvc(1940)[50] Information: [ProcessStatistics] Stats|120832|0|33|905|37392|376928|716284|1159524|120832|317068|495|84|0|0|3192|22016|82|2|50|90|7
+22:07:31 CylanceSvc(1940)[50] Information: [ProcessStatistics] Stats|121788|0|32|925|37764|376928|715260|1159524|121788|317068|495|83|0|0|3252|22292|219|3|51|92|7
+22:08:31 CylanceSvc(1940)[47] Information: [ProcessStatistics] Stats|122868|0|34|946|38584|376928|717308|1159524|122868|317068|494|84|0|0|3312|22812|69|5|52|95|8
+22:09:31 CylanceSvc(1940)[47] Information: [ProcessStatistics] Stats|123780|0|31|932|38788|376928|714236|1159524|123780|317068|496|84|0|0|3372|23008|3|2|54|97|8
+22:10:31 CylanceSvc(1940)[30] Information: [ProcessStatistics] Stats|124860|0|33|893|39076|376928|716284|1159524|124860|317068|495|84|0|0|3432|23308|3|2|54|99|8
+22:11:31 CylanceSvc(1940)[30] Information: [ProcessStatistics] Stats|125816|0|31|853|39316|376928|714236|1159524|125816|317068|495|84|0|0|3492|23528|3|2|55|100|8
+22:12:31 CylanceSvc(1940)[50] Information: [ProcessStatistics] Stats|126804|0|31|854|39560|376928|714236|1159524|126804|317068|495|84|0|0|3552|23772|3|2|56|102|8
+22:13:31 CylanceSvc(1940)[41] Information: [ProcessStatistics] Stats|127836|0|31|866|39880|376928|714236|1159524|127836|317068|496|84|0|0|3612|24100|3|3|57|102|8
+22:14:31 CylanceSvc(1940)[50] Information: [ProcessStatistics] Stats|129556|0|33|904|42864|376928|716796|1159524|129556|317068|496|85|0|0|3672|25516|84|13|60|105|8
+22:14:42 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2489\g2mtranscoder.exe' is allowed by SafeList.
+22:14:42 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2491\g2mtranscoder.exe' is allowed by SafeList.
+22:14:42 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2492\g2mtranscoder.exe' is allowed by SafeList.
+22:14:42 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\2539\g2mtranscoder.exe' is allowed by SafeList.
+22:14:42 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2489\G2MTranscoder.exe' is allowed by SafeList.
+22:14:42 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2491\G2MTranscoder.exe' is allowed by SafeList.
+22:14:42 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2492\G2MTranscoder.exe' is allowed by SafeList.
+22:14:42 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Users\lscaife\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2539\G2MTranscoder.exe' is allowed by SafeList.
+22:14:42 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\users\lscaife\appdata\local\temp\citrixupdates\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+22:14:42 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'c:\program files (x86)\citrix\gotomeeting\2553\g2mtranscoder.exe' is allowed by SafeList.
+22:14:42 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\Citrix\GoToMeeting\1415\ImmersiveWindowsFinderDllWin8.dll' is allowed by SafeList.
+22:14:42 CylanceSvc(1940)[25] Information: [Cylance.Host.Analyzer.FileProcessor] GetFileStatus, file 'C:\Program Files (x86)\BigFix Enterprise\BES Client\__BESData\BES Support\qchain.exe' is allowed by SafeList.
+22:15:31 CylanceSvc(1940)[50] Information: [ProcessStatistics] Stats|130152|1|35|896|45940|376928|718332|1159524|130152|317068|495|86|0|1|3732|27060|1075228|284|62|108|9
+22:16:31 CylanceSvc(1940)[37] Information: [ProcessStatistics] Stats|131080|0|33|918|46160|376928|716284|1159524|131080|317068|494|83|0|0|3792|27268|93|3|62|110|9
+22:17:31 CylanceSvc(1940)[37] Information: [ProcessStatistics] Stats|132060|0|32|938|46416|376928|715260|1159524|132060|317068|494|83|0|0|3852|27516|3|2|64|113|9
+22:18:31 CylanceSvc(1940)[37] Information: [ProcessStatistics] Stats|133120|0|33|945|46700|376928|716284|1159524|133120|317068|495|84|0|0|3912|27800|61|2|65|113|9
+22:18:49 CylanceSvc(1940)[37] Information: Running the Updater (65 minute update interval, Re-run flag: 0)...
+22:18:50 CyUpdate(3360)[1] Information: CyUpdate starting, PID = 3360...
+22:19:31 CylanceSvc(1940)[30] Information: [ProcessStatistics] Stats|134736|0|31|985|48680|376928|715096|1159524|134736|317068|496|84|0|0|3972|29100|692|12|65|115|9
+22:20:31 CylanceSvc(1940)[32] Information: [ProcessStatistics] Stats|135944|0|31|992|49208|376928|715096|1159524|135944|317068|496|84|0|0|4032|29616|382|3|66|116|9
+22:21:31 CylanceSvc(1940)[32] Information: [ProcessStatistics] Stats|136932|0|31|974|49440|376928|715096|1159524|136932|317068|494|84|0|0|4092|29852|3|2|67|118|9
+22:22:31 CylanceSvc(1940)[32] Information: [ProcessStatistics] Stats|138008|0|32|985|49740|376928|716120|1159524|138008|317068|495|84|0|0|4152|30148|3|2|68|118|9
+22:23:31 CylanceSvc(1940)[34] Information: [ProcessStatistics] Stats|138976|0|30|1014|49984|376928|714072|1159524|138976|317068|495|84|0|0|4212|30384|82|2|68|120|9
+22:24:31 CylanceSvc(1940)[34] Information: [ProcessStatistics] Stats|140068|0|32|1025|50284|376928|716120|1159524|140068|317068|496|84|0|0|4272|30684|3|2|70|123|9
+22:25:31 CylanceSvc(1940)[29] Information: [ProcessStatistics] Stats|141024|0|31|1002|50504|376928|715096|1159524|141024|317068|495|84|0|0|4332|30900|3|2|71|123|9
+22:26:31 CylanceSvc(1940)[29] Information: [ProcessStatistics] Stats|142092|0|32|1017|50792|376928|715352|1159524|142092|317068|495|84|0|0|4392|31192|3|2|71|125|9
+22:27:06 CylanceSvc(1940)[1] Information: Stopping service
+22:27:06 CylanceSvc(1940)[1] Information: Stopping module Analysis
+22:27:06 CylanceSvc(1940)[1] Information: Module Analysis stopped
+22:27:06 CylanceSvc(1940)[1] Information: Stopping module CommandControlUi
+22:27:06 CylanceSvc(1940)[1] Information: Module CommandControlUi stopped
+22:27:06 CylanceSvc(1940)[1] Information: Stopping module Venue
+22:27:06 CylanceSvc(1940)[1] Information: Module Venue stopped
+22:27:06 CylanceSvc(1940)[1] Information: Stopping module WindowsEventLogger
+22:27:06 CylanceSvc(1940)[1] Information: Module WindowsEventLogger stopped

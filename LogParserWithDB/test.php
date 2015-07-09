@@ -14,10 +14,15 @@ fwrite($fh, str_replace('\\', "\\\\",$string));
 fclose($fh);
 
 // Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conn = mysqli_connect($servername, $username, $password);
 // Check connection
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
+}
+else{
+	$createDB = "CREATE DATABASE IF NOT EXISTS logs";
+	mysqli_query($conn,$createDB);
+	mysqli_select_db($conn, "logs");
 }
 $noChar = preg_replace("/[^a-zA-Z0-9]+/","", $fileName);
 
